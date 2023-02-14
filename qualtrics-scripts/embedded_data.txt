@@ -1,0 +1,10 @@
+A LIST OF ALL EMBEDDED DATA. MAKE SURE THAT THESE ARE UPDATED IN QUALTRICS.
+
+
+* In Screenshot Randomizations *
+
+Qualtrics.SurveyEngine.setEmbeddedData("agnostic_augusto_img_number", augusto_img_number)
+Qualtrics.SurveyEngine.setEmbeddedData("agnostic_jordy_img_number", jordy_img_number)
+Qualtrics.SurveyEngine.setEmbeddedData("agnostic_kicis_img_number", kicis_img_number)
+Qualtrics.SurveyEngine.setEmbeddedData("agnostic_martins_img_number", martins_img_number)
+Qualtrics.SurveyEngine.setEmbeddedData("agnostic_melo_img_number", melo_img_number)
