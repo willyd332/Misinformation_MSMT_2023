@@ -1,16 +1,16 @@
 {
   "database": {
-    "name": "mocksocialmediadb",
+    "name": "misinformation_msmt",
     "username": "root",
-    "password": "rootroot",
-    "host": "localhost", 
+    "password": "",
+    "host": "127.0.0.1", 
     "port": "3306",
     "dialect": "mysql"
   },
   "adminCredentials": [
     {
-      "username": "test",
-      "password": "test"
+      "username": "will",
+      "password": "hmniwsld"
     }
   ],
   "secret": "asfasfads",
