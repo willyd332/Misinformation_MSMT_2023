@@ -10,7 +10,15 @@
   "adminCredentials": [
     {
       "username": "will",
-      "password": "hmniwsld"
+      "password": "will"
+    },
+    {
+      "username": "natalia",
+      "password": "natalia"
+    },
+    {
+      "username": "nara",
+      "password": "nara"
     }
   ],
   "secret": "asfasfads",
