@@ -22,6 +22,16 @@ const Feed = ({ omitInteractionBar }) => {
   const dispatch = useDispatch();
   const observer = useRef();
 
+  const urlString = window.location.href
+  let paramString = "?" + urlString.split('?')[1]
+  console.log(paramString)
+  let queryString = new URLSearchParams(paramString);
+  const img_urls = []
+  for (let pair of queryString.entries()) {
+    img_urls.push("https://misinformation-images.s3.amazonaws.com/" + pair[1] + ".png")
+  }
+  console.log(img_urls)
+
   useEffect(() => {
     if (!finish) {
       const startIndex = currentPostPage * postEachPage;
@@ -54,7 +64,7 @@ const Feed = ({ omitInteractionBar }) => {
             </div>)
           } else {
             return (<div key={postId} className={classes.post}>
-              <PostTop id={postId} />
+              <PostTop id={postId} img_url={img_urls[index]} />
               <PostBottom id={postId} omitInteractionBar={omitInteractionBar}/>
             </div>)
           }

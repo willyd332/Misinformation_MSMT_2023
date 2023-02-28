@@ -38,7 +38,7 @@ const UserLoginWithQualtricsId = () => {
       const qualCode = Number(qualtricsId);
       try {
         await dispatch(updateUserMain({ qualtricsId: qualCode }));
-        history.push(`/${accessCode}/user-response`);
+        history.push(`/${accessCode}/user-response` + "?" + ((window.location.href).split('?')[1]));
       } catch (error) {
         // history.push("/");
       }

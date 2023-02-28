@@ -7,6 +7,7 @@ const UserPost = db.UserPost;
 const UserPostAuthor = db.UserPostAuthor;
 
 const create = async (req, res, next) => {
+
   // create the page first
   let transaction;
   try {
@@ -75,11 +76,12 @@ const create = async (req, res, next) => {
     await UserPostAuthor.bulkCreate(authorArr, { transaction, logging: false });
 
     // modify the media array
-    const mediaKeys = ['adminPostId', 'link', 'linkTitle', 'linkPreview', 'postMessage', 'sourceTweet', 'type', 'isFake', 'authorId', 'isReplyTo', 'isReplyToOrder', 'quoteTweetTo', 'initLike', 'initReply', 'initTweet', 'datePosted', 'likedBy', 'likedByOverflow', 'retweetedBy', 'retweetedByOverflow'];
+    const mediaKeys = ['adminPostId', 'link', 'linkTitle', 'linkPreview', 'postMessage', 'sourceTweet', 'type', 'isFake', 'authorId', 'isReplyTo', 'isReplyToOrder', 'initLike', 'datePosted', 'likedBy', 'likedByOverflow', 'retweetedBy', 'retweetedByOverflow'];
     const mediaArr = [];
     //we will check if a post is a reply, if so we store in the mediaArrReplies
     const mediaArrReplies = [];
     for (let i = 1; i < mediaPosts.length; i++) {
+      console.log(mediaPosts[i])
       if (mediaPosts[i].length > 0) {
         let obj = {};
         for (let j = 0; j < mediaPosts[i].length; j++) {
@@ -101,6 +103,8 @@ const create = async (req, res, next) => {
     }
 
     console.log('Trying to create User Posts from excel file!')
+
+   // console.log(mediaArr)
     // create the Post records
     await UserPost.bulkCreate(mediaArr, { transaction, logging: false });
     // if we reach here, there were no errors therefore commit the transaction

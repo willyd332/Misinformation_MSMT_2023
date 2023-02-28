@@ -8,6 +8,17 @@ import CustomSnackbar from './Common/Snackbar';
 import "./App.css";
 
 function App() {
+  // ?url1=&url2=&url3=&url4=&url5=
+  // agnostic-augusto-1
+  // agnostic-augusto-10
+  // agnostic-augusto-11
+  // agnostic-augusto-12
+  // agnostic-augusto-13
+  // ?url1=agnostic-augusto-1&url2=agnostic-augusto-10&url3=agnostic-augusto-11&url4=agnostic-augusto-12&url5=agnostic-augusto-13
+  
+  const urlString = window.location.href
+  let paramString = "?" + urlString.split('?')[1]
+
   return (
     <>
     <div className="wrapper">
@@ -27,7 +38,7 @@ function App() {
             <UserLoginWithQualtricsId />
           </Route>
           <Route exact path="/:accessCode?">
-            <UserLogin />
+            <UserLogin paramString={paramString} />
           </Route>
         </Switch>
       </BrowserRouter>

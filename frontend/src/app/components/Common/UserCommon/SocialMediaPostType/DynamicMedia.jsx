@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./DynamicMedia.css";
 
-const DynamicMedia = ({ attachedMedia, customCSS  }) => {
+const DynamicMedia = ({ attachedMedia, customCSS }) => {
   // we only handle cases for image and videos
   const [mediaType, setMediaType] = useState(null);
   const [isPhoto, setIsPhoto] = useState(null);

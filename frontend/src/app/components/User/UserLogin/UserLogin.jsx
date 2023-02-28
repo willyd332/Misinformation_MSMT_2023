@@ -11,7 +11,7 @@ import { USER_TRANSLATIONS_DEFAULT } from '../../../constants';
 import { IconKey } from '@tabler/icons';
 import "./UserLogin.css";
 
-const UserLogin = () => {
+const UserLogin = (props) => {
   let history = useHistory();
   const classes = useStyles();
   const dispatch = useDispatch();
@@ -29,7 +29,7 @@ const UserLogin = () => {
       const tempCode = Number(code);
       try {
         await dispatch(userLogin(tempCode));
-        history.push(`/${tempCode}/participantId`);
+        history.push((`/${tempCode}/participantId` + props.paramString));
       } catch (error) {
         history.push("/");
       }
