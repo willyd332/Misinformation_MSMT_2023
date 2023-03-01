@@ -42,6 +42,19 @@ const UserLogin = (props) => {
     checkTemplateExist(accessCode);
   }, []);
 
+  useEffect(() => {
+    console.log("*** Hacking Goes Here***")
+    const urlString = window.location.href
+    let paramString = "?" + urlString.split('?')[1]
+    let queryString = new URLSearchParams(paramString);
+    const param_vals = []
+    for (let pair of queryString.entries()) {
+      param_vals.push(pair[1])
+    }
+    const user_id = param_vals[5]
+    console.log(user_id)
+  }, []);
+
   const handleSubmit = async e => {
     e.preventDefault();
     await checkTemplateExist(templateId);

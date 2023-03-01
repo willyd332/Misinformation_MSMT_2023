@@ -226,11 +226,11 @@ const TwitterPostTop = ({ id }) => {
 
               <div className="twitterPostMediaBox">
                 {(singlePost.type === 'PHOTO' || singlePost.type === 'VIDEO') &&
-                  <DynamicMedia attachedMedia={singlePost.attachedMedia[0]} customCSS="twitterAllRoundBorder"/>
+                  <DynamicMedia index={0} attachedMedia={singlePost.attachedMedia[0]} customCSS="twitterAllRoundBorder"/>
                 }
 
                 {singlePost.type === 'LINK' ?
-                  <DynamicLink id={id} />
+                  <DynamicLink index={0} id={id} />
                   :
                   null}
 

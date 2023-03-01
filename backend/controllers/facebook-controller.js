@@ -147,6 +147,7 @@ const createNewPost = async (req, res, next) => {
         mimeType: req.file.mimetype,
       };
       mediaData = await Media.create(media, { transaction, logging: false });
+
       console.log(`Also ataching Media entry for user ${req.userId} with file type as: ${media.mimeType}`);
       attachedMedia.push(mediaData);
     }

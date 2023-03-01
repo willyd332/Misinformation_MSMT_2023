@@ -16,7 +16,7 @@ import RoomIcon from '@material-ui/icons/Room';
 import GifIcon from '@material-ui/icons/Gif';
 import { FB_TRANSLATIONS_DEFAULT, USER_TRANSLATIONS_DEFAULT } from '../../../../../../../constants';
 
-const ShareModal = ({ id, setModalOpen }) => {
+const ShareModal = ({ index, id, setModalOpen }) => {
   const socialMediaTranslations = useSelector(state => state.socialMedia.socialMediaTranslations);
   const userRegisterData = useSelector(state => state.userRegister.metaData);
   const { translations } = useSelector(state => state.userAuth);
@@ -88,7 +88,7 @@ const ShareModal = ({ id, setModalOpen }) => {
             </div>
 
             <div className="sharePreview sharePostPreview">
-              <Share id={id} />
+              <Share index={index} id={id} />
             </div>
 
             <div className="newModalBottom">

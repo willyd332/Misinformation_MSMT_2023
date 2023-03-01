@@ -14,8 +14,12 @@ function App() {
   // agnostic-augusto-11
   // agnostic-augusto-12
   // agnostic-augusto-13
-  // ?url1=agnostic-augusto-1&url2=agnostic-augusto-10&url3=agnostic-augusto-11&url4=agnostic-augusto-12&url5=agnostic-augusto-13
-  
+  // Full auto URL
+    // http://localhost:8080/466049?url1=agnostic-augusto-1&url2=agnostic-augusto-10&url3=agnostic-augusto-11&url4=agnostic-augusto-12&url5=agnostic-augusto-13&userid=696969
+  // ?url1=agnostic-augusto-1&url2=agnostic-augusto-10&url3=agnostic-augusto-11&url4=agnostic-augusto-12&url5=agnostic-augusto-13&userid=123456
+    // Also add qualtrics ID and inject it into the Auth-Box
+  // Ultimately it all goes into DynamicMedia.jsx
+
   const urlString = window.location.href
   let paramString = "?" + urlString.split('?')[1]
 
@@ -35,7 +39,7 @@ function App() {
             <UserResponse />
           </Route>
           <Route exact path="/:accessCode/participantId">
-            <UserLoginWithQualtricsId />
+            <UserLoginWithQualtricsId/>
           </Route>
           <Route exact path="/:accessCode?">
             <UserLogin paramString={paramString} />

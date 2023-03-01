@@ -6,7 +6,7 @@ import DynamicMedia from "../../SocialMediaPostType/DynamicMedia";
 
 import "./DynamicLink.css";
 
-const DynamicLink = ({ id }) => {
+const DynamicLink = ({ id, index }) => {
   const singlePost = useSelector(state => selectSinglePost(state, id));
   const [renderDynamicLink, setRenderDynamicLink] = useState(null);
 
@@ -24,7 +24,7 @@ const DynamicLink = ({ id }) => {
         <a href={singlePost.link} className="twitter-link-preview" onClick={storeLinkClick} target="_blank" rel="noopener noreferrer">
         {singlePost.attachedMedia[0] && (singlePost.linkTitle || singlePost.linkPreview) ?
           <>
-            <DynamicMedia attachedMedia={singlePost.attachedMedia[0]} customCSS="twitterThreeSideBorder twitterCorrectMargin"/>
+            <DynamicMedia index={index} attachedMedia={singlePost.attachedMedia[0]} customCSS="twitterThreeSideBorder twitterCorrectMargin"/>
             <div className="twitterLinkThreeSideBorder twitterLinkCorrectMargin">
               <div className="twitter-og-title">
                 {singlePost.linkTitle}
@@ -37,7 +37,7 @@ const DynamicLink = ({ id }) => {
           :
           <>
             {singlePost.attachedMedia[0] ?
-              <DynamicMedia attachedMedia={singlePost.attachedMedia[0]} customCSS="twitterAllRoundBorder" />
+              <DynamicMedia index={index} attachedMedia={singlePost.attachedMedia[0]} customCSS="twitterAllRoundBorder" />
               :
               (singlePost.linkTitle || singlePost.linkPreview) ?
                 <div className="twitterLinkAllRoundBorder">

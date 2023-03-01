@@ -31,6 +31,39 @@ const UserLoginWithQualtricsId = () => {
     else return false;
   }
 
+  useEffect(() => {
+    console.log("*** Hacking Goes Here***")
+    const urlString = window.location.href
+    let paramString = "?" + urlString.split('?')[1]
+    let queryString = new URLSearchParams(paramString);
+    const param_vals = []
+    for (let pair of queryString.entries()) {
+      param_vals.push(pair[1])
+    }
+    let user_id
+    if (param_vals.length > 5){
+      user_id = param_vals[5]
+      console.log(user_id)
+      handleSubmitAuto(user_id)
+    }
+    console.log("*** Hacking Goes Here***")
+  }, []);
+
+  const handleSubmitAuto = async (user_id) => {
+    if (checkValidity(user_id)) {
+      // send the username and password to the server
+      const qualCode = Number(user_id);
+      try {
+        await dispatch(updateUserMain({ qualtricsId: qualCode }));
+        history.push(`/${accessCode}/user-response` + "?" + ((window.location.href).split('?')[1]));
+      } catch (error) {
+        // history.push("/");
+      }
+    } else {
+      dispatch(showInfoSnackbar((translations?.incorrect_access_code_or_participant_id) || USER_TRANSLATIONS_DEFAULT.INCORRECT_ACCESS_LOGIN_CODES));
+    }
+  }
+
   const handleSubmit = async e => {
     e.preventDefault();
     if (checkValidity(qualtricsId)) {

@@ -105,7 +105,7 @@ const PostBottom = ({ id, omitInteractionBar }) => {
         </div>
 
         {/* preserve the parent post data */}
-        {modalOpen && <ShareModal id={postMetadata.parentPostId || id} setModalOpen={setModalOpen}/>}
+        {modalOpen && <ShareModal index={0} id={postMetadata.parentPostId || id} setModalOpen={setModalOpen}/>}
       </div>
     }
 

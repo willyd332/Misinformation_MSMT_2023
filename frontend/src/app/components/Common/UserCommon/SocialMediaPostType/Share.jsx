@@ -9,7 +9,7 @@ import DynamicMediaProfile from './DynamicMediaProfile';
 import "./Share.css";
 
 // Used for only Facebook share
-const Share = ({ id }) => {
+const Share = ({ id, index }) => {
   const parentSharedPost = useSelector(state => selectSinglePost(state, id));
   const singleAuthor = useSelector(state => selectSocialMediaAuthor(state, parentSharedPost.authorId));
   const [renderSharePost, setRenderSharePost] = useState(null);
@@ -39,14 +39,14 @@ const Share = ({ id }) => {
           <Text className="postMessage" postMessage={parentSharedPost.postMessage} link={parentSharedPost.link} />
 
           {(parentSharedPost.type === 'PHOTO' || parentSharedPost.type === 'VIDEO') &&
-            <DynamicMedia attachedMedia={parentSharedPost.attachedMedia[0]} />
+            <DynamicMedia index={index} attachedMedia={parentSharedPost.attachedMedia[0]} />
           }
 
           {parentSharedPost.type === 'LINK' ?
             <a href={parentSharedPost.link} className="link-preview" target="_blank" rel="noopener noreferrer">
               <div className="link-area">
                 <div className="og-image">
-                  <DynamicMedia attachedMedia={parentSharedPost.attachedMedia[0]} />
+                <DynamicMedia index={index} attachedMedia={parentSharedPost.attachedMedia[0]} />
                 </div>
                 <div className="fbSharedescriptions">
                   <div className="og-title">

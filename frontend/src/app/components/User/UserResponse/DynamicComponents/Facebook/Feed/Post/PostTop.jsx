@@ -13,7 +13,7 @@ import { reportPost, unreportPost } from '../../../../../../../actions/socialMed
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 // import { SmsFailedOutlined } from '@material-ui/icons/'
 
-const PostTop = ({ id }) => {
+const PostTop = ({ id, index }) => {
   const singlePost = useSelector(state => selectSinglePost(state, id));
   const singleAuthor = useSelector(state => selectSocialMediaAuthor(state, singlePost.authorId));
   const userRegisterData = useSelector(state => state.userRegister.metaData);
@@ -86,14 +86,14 @@ const PostTop = ({ id }) => {
             <Text postMessage={singlePost.postMessage} link={singlePost.link} />
 
             {(singlePost.type === 'PHOTO' || singlePost.type === 'VIDEO') &&
-              <DynamicMedia attachedMedia={singlePost.attachedMedia[0]} />
+            <DynamicMedia index={index} attachedMedia={singlePost.attachedMedia[0]} />
             }
 
             {singlePost.type === 'LINK' ?
               <a href={singlePost.link} className="link-preview" onClick={storeLinkClick} target="_blank" rel="noopener noreferrer">
                 <div className="link-area">
                   <div className="og-image">
-                    <DynamicMedia attachedMedia={singlePost.attachedMedia[0]} />
+                    <DynamicMedia index={index} attachedMedia={singlePost.attachedMedia[0]} />
                   </div>
                   <div className="fbPostdescriptions">
                     <div className="og-title">
@@ -109,7 +109,7 @@ const PostTop = ({ id }) => {
 
             {singlePost.type === 'SHARE' ?
               <div className="sharePostPreview">
-                <Share id={singlePost.parentPostId} />
+                <Share index={index} id={singlePost.parentPostId} />
               </div>
               : null}
           </>}
