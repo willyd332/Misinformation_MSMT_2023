@@ -19,8 +19,8 @@ const UserLogin = (props) => {
   const [templateId, setTemplateId] = useState("");
 
   const checkValidity = (id) => {
-    if (id && id.length === 6 && Number(id)) return true;
-    else return false;
+    console.log(id)
+    return true;
   }
 
   const checkTemplateExist = async (code) => {

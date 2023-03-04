@@ -1,7 +1,5 @@
 A LIST OF ALL EMBEDDED DATA. MAKE SURE THAT THESE ARE UPDATED IN QUALTRICS.
 
-
-* In Screenshot Randomizations *
 Qualtrics.SurveyEngine.setEmbeddedData("agnostic_augusto_img_number", augusto_img_number)
 Qualtrics.SurveyEngine.setEmbeddedData("agnostic_jordy_img_number", jordy_img_number)
 Qualtrics.SurveyEngine.setEmbeddedData("agnostic_kicis_img_number", kicis_img_number)
@@ -14,8 +12,6 @@ Qualtrics.SurveyEngine.setEmbeddedData("agnostic_kicis_url", kicis_url)
 Qualtrics.SurveyEngine.setEmbeddedData("agnostic_melo_url", melo_url)
 Qualtrics.SurveyEngine.setEmbeddedData("agnostic_martins_url", martins_url)
 
-
-
 Qualtrics.SurveyEngine.setEmbeddedData("policy_augusto_img_number", augusto_img_number)
 Qualtrics.SurveyEngine.setEmbeddedData("policy_jordy_img_number", jordy_img_number)
 Qualtrics.SurveyEngine.setEmbeddedData("policy_kicis_img_number", kicis_img_number)
@@ -27,3 +23,5 @@ Qualtrics.SurveyEngine.setEmbeddedData("policy_jordy_url", jordy_url)
 Qualtrics.SurveyEngine.setEmbeddedData("policy_kicis_url", kicis_url)
 Qualtrics.SurveyEngine.setEmbeddedData("policy_melo_url", melo_url)
 Qualtrics.SurveyEngine.setEmbeddedData("policy_martins_url", martins_url)
+
+Qualtics Response ID (Q_R)

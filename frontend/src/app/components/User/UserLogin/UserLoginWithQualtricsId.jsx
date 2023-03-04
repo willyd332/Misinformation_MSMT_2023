@@ -27,8 +27,8 @@ const UserLoginWithQualtricsId = () => {
   }, []);
 
   const checkValidity = (id) => {
-    if (id && id.length === 6 && Number(id)) return true;
-    else return false;
+    console.log(id)
+    return true;
   }
 
   useEffect(() => {
@@ -49,10 +49,10 @@ const UserLoginWithQualtricsId = () => {
     console.log("*** Hacking Goes Here***")
   }, []);
 
-  const handleSubmitAuto = async (user_id) => {
-    if (checkValidity(user_id)) {
+  const handleSubmitAuto = async (qualtricsId) => {
+    if (checkValidity(qualtricsId)) {
       // send the username and password to the server
-      const qualCode = Number(user_id);
+      const qualCode = qualtricsId
       try {
         await dispatch(updateUserMain({ qualtricsId: qualCode }));
         history.push(`/${accessCode}/user-response` + "?" + ((window.location.href).split('?')[1]));
@@ -68,7 +68,7 @@ const UserLoginWithQualtricsId = () => {
     e.preventDefault();
     if (checkValidity(qualtricsId)) {
       // send the username and password to the server
-      const qualCode = Number(qualtricsId);
+      const qualCode = qualtricsId
       try {
         await dispatch(updateUserMain({ qualtricsId: qualCode }));
         history.push(`/${accessCode}/user-response` + "?" + ((window.location.href).split('?')[1]));
