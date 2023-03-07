@@ -11,7 +11,7 @@ import IconSendViaIconduckSvg from '../../../../../../../../assets/Facebook/icon
 import PostBottomComments from "./PostBottomComments/PostBottomComments";
 import "./Post.css";
 
-const PostBottom = ({ id, omitInteractionBar }) => {
+const PostBottom = ({ id, omitInteractionBar, index, postData, imgUrls, postDataUpdated}) => {
   const postMetadata = useSelector(state => selectPostsMetadata(state, id));
   const socialMediaTranslations = useSelector(state => state.socialMedia.socialMediaTranslations);
   const userRegisterData = useSelector(state => state.userRegister.metaData);

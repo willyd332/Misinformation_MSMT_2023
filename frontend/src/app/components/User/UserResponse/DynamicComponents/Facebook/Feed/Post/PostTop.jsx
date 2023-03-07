@@ -13,7 +13,7 @@ import { reportPost, unreportPost } from '../../../../../../../actions/socialMed
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 // import { SmsFailedOutlined } from '@material-ui/icons/'
 
-const PostTop = ({ id, index }) => {
+const PostTop = ({ id, index, postData, imgUrls, postDataUpdated}) => {
   const singlePost = useSelector(state => selectSinglePost(state, id));
   const singleAuthor = useSelector(state => selectSocialMediaAuthor(state, singlePost.authorId));
   const userRegisterData = useSelector(state => state.userRegister.metaData);
@@ -68,22 +68,43 @@ const PostTop = ({ id, index }) => {
                   className="fbPostTopAvatar"
                 />
               }
-              <div className="postTopInfo">
-                <h3>{singlePost.userPost ? (userRegisterData['USERNAME'] || "") : 
-                  singleAuthor?.authorName || ""
-                }</h3>
-                <p>{singlePost.datePosted || ""}</p>
-              </div>
-              <div className="postTopThreeDots">
-                <MoreHorizIcon />
-              </div>
+              {postDataUpdated && imgUrls[index] in postData ?
+              <>
+                  <div className="postTopInfo">
+                  <h3>{singlePost.userPost ? (userRegisterData['USERNAME'] || "") : 
+                    singleAuthor?.authorName || ""
+                  }</h3>
+                  <p>{postData[imgUrls[index]]["datePosted"] || ""}</p>
+                </div>
+                <div className="postTopThreeDots">
+                  <MoreHorizIcon />
+                </div>
+              </>
+              :
+              <>
+                <div className="postTopInfo">
+                  <h3>{singlePost.userPost ? (userRegisterData['USERNAME'] || "") : 
+                    singleAuthor?.authorName || ""
+                  }</h3>
+                  <p>{singlePost.datePosted || ""}</p>
+                </div>
+                <div className="postTopThreeDots">
+                  <MoreHorizIcon />
+                </div>
+              </>
+              }
               {/* <div className="report-container" onClick={handleToggleReport}>
                 <SmsFailedOutlined fontSize="small" style={{ color: reportIconColor }} />
                 <p className="defaultText report-text">{reportText}</p>
               </div> */}
             </div>
+            
+            {postDataUpdated && imgUrls[index] in postData ?
+              <Text postMessage={postData[imgUrls[index]]["text"]} link={singlePost.link} />
+            :
+              <Text postMessage={singlePost.postMessage} link={singlePost.link} />
+            }
 
-            <Text postMessage={singlePost.postMessage} link={singlePost.link} />
 
             {(singlePost.type === 'PHOTO' || singlePost.type === 'VIDEO') &&
             <DynamicMedia index={index} attachedMedia={singlePost.attachedMedia[0]} />

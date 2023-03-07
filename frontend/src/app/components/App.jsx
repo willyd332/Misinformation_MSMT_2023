@@ -15,10 +15,12 @@ function App() {
   // agnostic-augusto-12
   // agnostic-augusto-13
   // Full auto URL
-    // http://localhost:8080/466049?url1=agnostic-augusto-1&url2=agnostic-augusto-10&url3=agnostic-augusto-11&url4=agnostic-augusto-12&url5=agnostic-augusto-13&userid=696969
+    // http://localhost:8080/466049?url1=agnostic-augusto-1&url2=agnostic-augusto-2&url3=agnostic-augusto-11&url4=agnostic-augusto-12&url5=agnostic-augusto-13&userid=696969
   // ?url1=agnostic-augusto-1&url2=agnostic-augusto-10&url3=agnostic-augusto-11&url4=agnostic-augusto-12&url5=agnostic-augusto-13&userid=123456
     // Also add qualtrics ID and inject it into the Auth-Box
   // Ultimately it all goes into DynamicMedia.jsx
+
+  // http://localhost:8080/466049?url1=agnostic-augusto-1-cropped&url2=agnostic-augusto-2-cropped&url3=agnostic-augusto-3-cropped&url4=agnostic-augusto-4-cropped&url5=agnostic-augusto-5-cropped&userid=696969
 
   const urlString = window.location.href
   let paramString = "?" + urlString.split('?')[1]
