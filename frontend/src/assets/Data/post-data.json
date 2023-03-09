@@ -1,52 +1,1603 @@
 [
-  {
-   "postID": 101,
-   "text": "Veja a enquete no site Uol. Vote também. \nVergonhosa a atitude da PGR e pior ainda a votação do STF. Não basta ser honesto, tem que parecer honesto também, e esse voto eletrônico usado SÓ no Brasil não parece nada honesto e muito menos transparente. \nhttps:\/\/noticias.uol.com.br\/politica\/eleicoes\/2018\/noticias\/2018\/06\/06\/stf-voto-impresso.htm",
-   "postType": "PHOTO",
-   "isMisinfo": 0,
-   "authorID": 1001,
-   "initLike": 85,
-   "datePosted": "6 de junho de 2018",
-   "filename": "agnostic-augusto-1-cropped.png"
-  },
-  {
-   "postID": 102,
-   "text": "Deputado Federal Capitão Augusto recebendo em seu escritório em Bauru, a Secretária de desenvolvimento do município, Aline Fogolin  e representantes do EADI (PORTO SECO)\n#POLITICADERESULTADOS #bauru Baurucity",
-   "postType": "PHOTO",
-   "isMisinfo": 0,
-   "authorID": 1001,
-   "initLike": 19,
-   "datePosted": "10 de março de 2019",
-   "filename": "agnostic-augusto-2-cropped.png"
-  },
-  {
-   "postID": 103,
-   "text": "O Projeto de Lei 1012\/19 aumenta para quatro anos o prazo para que o condenado, após a extinção ou o cumprimento da pena, possa apresentar requerimento da reabilitação.",
-   "postType": "PHOTO",
-   "isMisinfo": 0,
-   "authorID": 1001,
-   "initLike": 70,
-   "datePosted": "19 de julho de 2020",
-   "filename": "agnostic-augusto-3-cropped.png"
-  },
-  {
-   "postID": 104,
-   "text": "Divulgarei todas as cidades que já destinei emendas parlamentares por ordem alfabética.\nPara Macatuba, já destinei 200 mil reais! Para conferir a tabela, acesse o meu site!",
-   "postType": "PHOTO",
-   "isMisinfo": 0,
-   "authorID": 1001,
-   "initLike": 37,
-   "datePosted": "23 de janeiro de 2020",
-   "filename": "agnostic-augusto-4-cropped.png"
-  },
-  {
-   "postID": 105,
-   "text": "SOU CONTRA!",
-   "postType": "PHOTO",
-   "isMisinfo": 0,
-   "authorID": 1001,
-   "initLike": 155,
-   "datePosted": "24 de junho de 2020",
-   "filename": "agnostic-augusto-5-cropped.png"
-  }
- ]
+ {
+  "postID": 101,
+  "text": "Veja a enquete no site Uol. Vote também. \nVergonhosa a atitude da PGR e pior ainda a votação do STF. Não basta ser honesto, tem que parecer honesto também, e esse voto eletrônico usado SÓ no Brasil não parece nada honesto e muito menos transparente. \nhttps:\/\/noticias.uol.com.br\/politica\/eleicoes\/2018\/noticias\/2018\/06\/06\/stf-voto-impresso.htm",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 85,
+  "datePosted": "6 de junho de 2018",
+  "filename": "agnostic-augusto-1-cropped.png"
+ },
+ {
+  "postID": 102,
+  "text": "Deputado Federal Capitão Augusto recebendo em seu escritório em Bauru, a Secretária de desenvolvimento do município, Aline Fogolin  e representantes do EADI (PORTO SECO)\n#POLITICADERESULTADOS #bauru Baurucity",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 19,
+  "datePosted": "10 de março de 2019",
+  "filename": "agnostic-augusto-2-cropped.png"
+ },
+ {
+  "postID": 103,
+  "text": "O Projeto de Lei 1012\/19 aumenta para quatro anos o prazo para que o condenado, após a extinção ou o cumprimento da pena, possa apresentar requerimento da reabilitação.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 70,
+  "datePosted": "19 de julho de 2020",
+  "filename": "agnostic-augusto-3-cropped.png"
+ },
+ {
+  "postID": 104,
+  "text": "Divulgarei todas as cidades que já destinei emendas parlamentares por ordem alfabética.\nPara Macatuba, já destinei 200 mil reais! Para conferir a tabela, acesse o meu site!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 37,
+  "datePosted": "23 de janeiro de 2020",
+  "filename": "agnostic-augusto-4-cropped.png"
+ },
+ {
+  "postID": 105,
+  "text": "SOU CONTRA!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 155,
+  "datePosted": "24 de junho de 2020",
+  "filename": "agnostic-augusto-5-cropped.png"
+ },
+ {
+  "postID": 106,
+  "text": "Já que alguns prefeitos e governadores insistem em soluções simples e populistas, que não resolvem mas apenas geram mais desemprego, falência e morte, o Presidente chama para si a responsabilidade e define o que deve ser aberto.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "3,4 mil",
+  "datePosted": "11 de maio de 2020",
+  "filename": "agnostic-jordy-1-cropped.png"
+ },
+ {
+  "postID": 107,
+  "text": "Ô, mulhersapiens, pode esperar, a sua hora vai chegar!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 929,
+  "datePosted": "6 de novembro de 2019",
+  "filename": "agnostic-jordy-2-cropped.png"
+ },
+ {
+  "postID": 108,
+  "text": "Saiba sobre a decisão do juiz referente ao evento contra o Ministro Moro dentro da UFF.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 850,
+  "datePosted": "23 de setembro de 2019",
+  "filename": "agnostic-jordy-3-cropped.png"
+ },
+ {
+  "postID": 109,
+  "text": "E pensar que a oposição era contra essa medida.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 494,
+  "datePosted": "27 de setembro de 2019",
+  "filename": "agnostic-jordy-4-cropped.png"
+ },
+ {
+  "postID": 110,
+  "text": "No próximo sábado (28\/11), às 14hs, faremos a carreata bolsonarista #PTNUNCAMAIS em apoio ao candidato a Prefeito de São Gonçalo Capitão Nelson 70. Estarei ao lado dos Deputados Estaduais Felippe Poubel e Anderson Moraes com a população de bem de São Gonçalo. Compareça e leve sua bandeira do Brasil. A nossa bandeira jamais será vermelha. PT nunca mais. Dia 29 é 70, Bolsonelson!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "1,8 mil",
+  "datePosted": "26 de novembro de 2020",
+  "filename": "agnostic-jordy-5-cropped.png"
+ },
+ {
+  "postID": 111,
+  "text": "Ancelmo Goes, jornalista comunista, cometeu crime de racismo contra Sérgio Camargo, Presidente da Fundação Palmares. Agora é com o Ministério Público.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "6,2 mil",
+  "datePosted": "9 de maio de 2020",
+  "filename": "agnostic-kicis-1-cropped.png"
+ },
+ {
+  "postID": 112,
+  "text": "Renan avisou que voltaria ....e pretende encabeçar a oposição a Jair Messias Bolsonaro no Senado. Apenas 8 senadores foram reeleitos e 24 são novatos. O PSL elegeu 4 senadores.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "1,3 mil",
+  "datePosted": "17 de outubro de 2018",
+  "filename": "agnostic-kicis-2-cropped.png"
+ },
+ {
+  "postID": 113,
+  "text": "Projeto de criação da Rota da Fruticultura no Centro-Oeste para o Distrito Federal e RIDE. 15\/08",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 227,
+  "datePosted": "18 de agosto de 2019",
+  "filename": "agnostic-kicis-3-cropped.png"
+ },
+ {
+  "postID": 114,
+  "text": "É importante ressaltar que o Ministério Público Federal é isento. A ele cabe a fiscalização e o cumprimento da lei e da Constituição Federal.\nhttps:\/\/tinyurl.com\/yy5y7p6s",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "1 mil",
+  "datePosted": "5 de junho de 2019",
+  "filename": "agnostic-kicis-4-cropped.png"
+ },
+ {
+  "postID": 115,
+  "text": "Live às 21:30 h aqui na página com @Jane Silva",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 158,
+  "datePosted": "23 de julho de 2018",
+  "filename": "agnostic-kicis-5-cropped.png"
+ },
+ {
+  "postID": 116,
+  "text": "Reunião com as lideranças do PSL Piauí. #movimentodireitaunida #pslpiauí #bolsonarianospiaui #bolsonarianos #teresinapiaui #piauiense #endireitapiaui",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 4,
+  "datePosted": "7 de março de 2019",
+  "filename": "agnostic-melo-1-cropped.png"
+ },
+ {
+  "postID": 117,
+  "text": "É MUITA DESUMANIDADE DESSES GESTORES!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 273,
+  "datePosted": "17 de junho de 2020",
+  "filename": "agnostic-melo-2-cropped.png"
+ },
+ {
+  "postID": 118,
+  "text": "#lavajato A 8° Turma do Tribunal Regional Eleitoral da 4° Região (TRF 4), o Tribunal da Lava Jato, negou os recursos apresentados pela defesa de Lula e manteve a sentença proferida pela Corte em dezembro do ano passado: 17 anos e um mês de prisão, em Regime Fechado.\nSe a Prisão em Segunda Instância tivesse sido aprovada, ele já estaria voltando para a cadeia, agora também condenado por corrupção e lavagem de dinheiro.\nPor isso é fundamental: \nPRISÃO EM SEGUNDA INSTÂNCIA JÁ!\n#prisaoemsegundainstanciasim #combateacorrupção",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 52,
+  "datePosted": "8 de maio de 2020",
+  "filename": "agnostic-melo-3-cropped.png"
+ },
+ {
+  "postID": 119,
+  "text": "Meus sentimentos pela partida do Piloto Ronaldo Quatrucci que levava o jornalista Ricardo Broechat e que também foi fatalmente vítima deste trágico acidente. 🙌🙏",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 20,
+  "datePosted": "12 de fevereiro de 2019",
+  "filename": "agnostic-melo-4-cropped.png"
+ },
+ {
+  "postID": 120,
+  "text": "Santuário São Francisco de Assis será homenageado pela Câmara Municipal de Teresina. Reunião de organização deste evento que solenemente será realizado dia 20 de setembro de 2019. #deusnocomando",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 5,
+  "datePosted": "13 de fevereiro de 2019",
+  "filename": "agnostic-melo-5-cropped.png"
+ },
+ {
+  "postID": 121,
+  "text": "As empresas vencedoras terão o compromisso de fazer investimentos para a ampliação e manutenção dos 12 aeroportos concedidos.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "2,9 mil",
+  "datePosted": "6 de setembro de 2019",
+  "filename": "agnostic-martins-1-cropped.png"
+ },
+ {
+  "postID": 122,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "7,4 mil",
+  "datePosted": "24 de novembro de 2020",
+  "filename": "agnostic-martins-2-cropped.png"
+ },
+ {
+  "postID": 123,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "10 mil",
+  "datePosted": "10 de outubro de 2020",
+  "filename": "agnostic-martins-3-cropped.png"
+ },
+ {
+  "postID": 124,
+  "text": "Para evitar tarifas impostas por Trump, López Obrador irá tomar medidas enérgicas para combater imigração ilegal na fronteira americana.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "1,9 mil",
+  "datePosted": "8 de junho de 2019",
+  "filename": "agnostic-martins-4-cropped.png"
+ },
+ {
+  "postID": 125,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "8,7 mil",
+  "datePosted": "2 de novembro de 2020",
+  "filename": "agnostic-martins-5-cropped.png"
+ },
+ {
+  "postID": 126,
+  "text": "Em audiência agendada pelo deputado federal Capitão Augusto com o ministro dos Transportes, Maurício Quintela - que contou com as presenças do diretor das FIO, Bianor Colchesqui, do diretor da ANTT Sérgio Lobo e do vereador de Pederneiras, Adriano Camargo - foram discutidos os seguintes temas: retomada das rodovias federais na divisa dos estados do Paraná e São Paulo\/BR-153, pelo ministério dos Transportes, Obra para recuperação da Ponte Gumercindo Penteado, no município de Colômbia (SP), informações sobre o processo de retirada de material rodante do pátio de Araraquara, implantação do dispositivo de retorno do km 340 – 070 da rodovia Transbrasiliana, BR-153, no município de Ourinhos.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 40,
+  "datePosted": "27 de março de 2018",
+  "filename": "agnostic-augusto-6-cropped.png"
+ },
+ {
+  "postID": 127,
+  "text": "Na casa onde eles estavam foram apreendidos quatro fuzis, uma pistola ponto quarenta e munições. De acordo com a PM, casal recepcionou policiais com armas em punho. \nLink: https:\/\/capitaoaugusto.com.br\/suspeitos-de-ataques-a...\/",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 354,
+  "datePosted": "22 de fevereiro de 2019",
+  "filename": "agnostic-augusto-7-cropped.png"
+ },
+ {
+  "postID": 128,
+  "text": "🤔",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": "7,3 mil",
+  "datePosted": "11 de novembro de 2020",
+  "filename": "agnostic-augusto-8-cropped.png"
+ },
+ {
+  "postID": 129,
+  "text": "Caprichem!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": "1,2 mil",
+  "datePosted": "22 de setembro de 2020",
+  "filename": "agnostic-augusto-9-cropped.png"
+ },
+ {
+  "postID": 130,
+  "text": "De acordo com o Código de Defesa do Consumidor, a prática de proibir a entrada de alimentos que não tenham sido comprados no cinema é considerado venda casada, que é ilegal.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 106,
+  "datePosted": "25 de fevereiro de 2019",
+  "filename": "agnostic-augusto-10-cropped.png"
+ },
+ {
+  "postID": 131,
+  "text": "Deixe sua risada 😆",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": "1,5 mil",
+  "datePosted": "19 de setembro de 2020",
+  "filename": "agnostic-augusto-11-cropped.png"
+ },
+ {
+  "postID": 132,
+  "text": "Cidadãos de Bem devem ter prioridades!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": "9,1 mil",
+  "datePosted": "9 de dezembro de 2020",
+  "filename": "agnostic-augusto-12-cropped.png"
+ },
+ {
+  "postID": 133,
+  "text": "Parabéns a todos os trabalhadores que movem o país! Em especial àqueles que estão na linha de frente em combate ao covid-19.\n#CapitãoAugusto #DeputadoFederal #DiaDoTrabalhador #PrimeiroDeMaio",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 118,
+  "datePosted": "1 de maio de 2020",
+  "filename": "agnostic-augusto-13-cropped.png"
+ },
+ {
+  "postID": 134,
+  "text": "MADRUGADA TRÁGICA \nUm acidente gravíssimo na noite desta domingo envolvendo cerca 30 carros, quatro motociclestas e um caminhão deixou pelo menos 8 mortos e 35 feridos, BR-277.\nAlguém colocou fogo nas margens da pista, atrapalhando a visibilidade. A cada acidente mais carros batiam atrás e quem saia do veículo sofria atropelamento.\nMais uma vez tragédia causada pelas mãos do homem",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": "10 mil",
+  "datePosted": "3 de agosto de 2020",
+  "filename": "agnostic-augusto-14-cropped.png"
+ },
+ {
+  "postID": 135,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": "1,2 mil",
+  "datePosted": "16 de setembro de 2020",
+  "filename": "agnostic-augusto-15-cropped.png"
+ },
+ {
+  "postID": 136,
+  "text": "A expectativa é produzir até 100 milhões de doses até o fim do ano. Outras 1,3 bilhão de doses podem ser fabricadas no ano que vem.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": "2,4 mil",
+  "datePosted": "2 de dezembro de 2020",
+  "filename": "agnostic-augusto-16-cropped.png"
+ },
+ {
+  "postID": 137,
+  "text": "O Brasil tem 9 casos suspeitos de coronavírus em investigação, de acordo com o Ministério da Saúde. A informação foi divulgada nesta quinta-feira (6), por volta das 10h, durante uma reunião do ministro Luiz Henrique Mandetta com os secretários de saúde dos estados e capitais do país.\n#capitãoaugusto #deputadofederal",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 53,
+  "datePosted": "6 de fevereiro de 2020",
+  "filename": "agnostic-augusto-17-cropped.png"
+ },
+ {
+  "postID": 138,
+  "text": "Um resumão dos ganhadores do Oscar 2020, para quem não viu\n#Oscar",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 37,
+  "datePosted": "11 de fevereiro de 2020",
+  "filename": "agnostic-augusto-18-cropped.png"
+ },
+ {
+  "postID": 139,
+  "text": "O BB mudou a governança e fez desinvestimentos.\nA privatização é defendida pelo presidente do Banco do Brasil e Paulo Guedes.\n #CapitãoAugusto #DeputadoFederal #Brasil #Política",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 935,
+  "datePosted": "3 de dezembro de 2019",
+  "filename": "agnostic-augusto-19-cropped.png"
+ },
+ {
+  "postID": 140,
+  "text": "O deputado federal Capitão Augusto se reuniu com o secretariado do Governo de Marília para explanar sobre as ações que serão realizadas no âmbito da Frente Parlamentar para Duplicação da BR 153, nesta sexta-feira, 15.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 31,
+  "datePosted": "16 de junho de 2018",
+  "filename": "agnostic-augusto-20-cropped.png"
+ },
+ {
+  "postID": 141,
+  "text": "Deputado Federal Capitão Augusto e representantes da Frente Parlamentar do Rodeio, Vaquejadas e Provas Equestres, receberam comentarista Esnar Ribeiro em Ourinhos\/SP.\nObjetivo da reunião foi para tratar sobre projetos relacionado ao mundo dos rodeios.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 41,
+  "datePosted": "3 de março de 2020",
+  "filename": "agnostic-augusto-21-cropped.png"
+ },
+ {
+  "postID": 142,
+  "text": "Que se faça justiça!!!\n#capitãoaugusto #deputadofederal #justiça #moro",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 371,
+  "datePosted": "24 de julho de 2019",
+  "filename": "agnostic-augusto-22-cropped.png"
+ },
+ {
+  "postID": 143,
+  "text": "BOLSONARO SENDO REELEITO, VAI INDICAR OS NOVOS 4 MINISTRO NO LUGAR DOS 4 QUE VOTARAM CONTRA A PRISÃO APÓS CONDENAÇÃO EM SEGUNDA INSTÂNCIA",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 296,
+  "datePosted": "5 de novembro de 2019",
+  "filename": "agnostic-augusto-23-cropped.png"
+ },
+ {
+  "postID": 144,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": "1,1 mil",
+  "datePosted": "8 de agosto de 2020",
+  "filename": "agnostic-augusto-24-cropped.png"
+ },
+ {
+  "postID": 145,
+  "text": "Parabéns a toda corporação do 14º Batalhão de Polícia Militar Metropolitano – Osasco.\n#capitãoaugusto #deputadofederal",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 23,
+  "datePosted": "25 de outubro de 2019",
+  "filename": "agnostic-augusto-25-cropped.png"
+ },
+ {
+  "postID": 146,
+  "text": "Matheus sonha em ser policial e comentou com mãe que não tinha muitos amigos para festa em Rio Crespo (RO). Menino ganhou bolo e um uniforme militar. Link: https:\/\/tinyurl.com\/y39ncaua",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 98,
+  "datePosted": "19 de fevereiro de 2019",
+  "filename": "agnostic-augusto-26-cropped.png"
+ },
+ {
+  "postID": 147,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": "10 mil",
+  "datePosted": "15 de dezembro de 2020",
+  "filename": "agnostic-augusto-27-cropped.png"
+ },
+ {
+  "postID": 148,
+  "text": "Emenda destinada para Ourinhos, através da Bancada Paulista.\n#capitaoaugusto #deputadofederal #bauru",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 17,
+  "datePosted": "13 de maio de 2020",
+  "filename": "agnostic-augusto-28-cropped.png"
+ },
+ {
+  "postID": 149,
+  "text": "Após aprovação na Câmara, pacote anticrime será analisado pelo Senado http:\/\/bit.ly\/367KlVH\n#CapitãoAugusto #DeputadoFederal",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 75,
+  "datePosted": "6 de dezembro de 2019",
+  "filename": "agnostic-augusto-29-cropped.png"
+ },
+ {
+  "postID": 150,
+  "text": "Vanusa morre aos 73 anos, deixa três filhos.\nNossos sentimentos aos familiares e fãs",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": "7,4 mil",
+  "datePosted": "8 de novembro de 2020",
+  "filename": "agnostic-augusto-30-cropped.png"
+ },
+ {
+  "postID": 151,
+  "text": "O lado do bem na Venezuela está contra Lula!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "1,2 mil",
+  "datePosted": "24 de novembro de 2019",
+  "filename": "agnostic-jordy-6-cropped.png"
+ },
+ {
+  "postID": 152,
+  "text": "O PL 6407\/13 é um grande avanço para o setor no Brasil. Além de abrir a economia para que novas empresas invistam na exploração do gás natural, aumentando a concorrência, gerará 4 milhões de empregos, investimentos bilionários e redução do preço do gás. Queremos o PL original!\n#PLdoGasOriginal",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "3,5 mil",
+  "datePosted": "1 de setembro de 2020",
+  "filename": "agnostic-jordy-7-cropped.png"
+ },
+ {
+  "postID": 153,
+  "text": "Mas a esquerda diz que a solução para a violência contra a mulher é debater gênero.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 821,
+  "datePosted": "10 de março de 2020",
+  "filename": "agnostic-jordy-8-cropped.png"
+ },
+ {
+  "postID": 154,
+  "text": "E ainda deixará todos sem comida e itens de higiene. Ops, isso já acontece, mas na Venezuela.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 277,
+  "datePosted": "18 de outubro de 2018",
+  "filename": "agnostic-jordy-9-cropped.png"
+ },
+ {
+  "postID": 155,
+  "text": "É por isso que somente bandidos são contra Moro.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "1,5 mil",
+  "datePosted": "16 de julho de 2019",
+  "filename": "agnostic-jordy-10-cropped.png"
+ },
+ {
+  "postID": 156,
+  "text": "Em reunião com o Ministro da Educação Ricardo Velez Rodriguez discutindo o problema do aparelhamento das universidades e escolas e buscando maneiras de expandir as escolas cívico-militares para o estado do Rio de Janeiro.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 273,
+  "datePosted": "3 de abril de 2019",
+  "filename": "agnostic-jordy-11-cropped.png"
+ },
+ {
+  "postID": 157,
+  "text": "Bom dia! Que tenhamos uma excelente e abençoada semana!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "2,3 mil",
+  "datePosted": "8 de junho de 2020",
+  "filename": "agnostic-jordy-12-cropped.png"
+ },
+ {
+  "postID": 158,
+  "text": "Saiu o resultado do PISA 2018, realizado em abril daquele ano. Os dados são catastróficos. O Brasil ocupa o último lugar na América Latina e as últimas colocações dentre os 80 países avaliados no mundo. Frutos podres do Método Paulo Freire de ensino.‬\n‪https:\/\/g1.globo.com\/...\/brasil-cai-em-ranking-mundial-de...",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 986,
+  "datePosted": "3 de dezembro de 2019",
+  "filename": "agnostic-jordy-13-cropped.png"
+ },
+ {
+  "postID": 159,
+  "text": "E teve bolo de aniversário do Aliança pelo Brasil com direito a boneco miniatura do Presidente e do Carlos Jordy rsrs",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "1,5 mil",
+  "datePosted": "7 de fevereiro de 2020",
+  "filename": "agnostic-jordy-14-cropped.png"
+ },
+ {
+  "postID": 160,
+  "text": "O novo lema dos traidores: “ninguém solta a mão de ninguém”.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "1,1 mil",
+  "datePosted": "6 de março de 2020",
+  "filename": "agnostic-jordy-15-cropped.png"
+ },
+ {
+  "postID": 161,
+  "text": "A justiSSa do STF!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "11 mil",
+  "datePosted": "11 de setembro de 2020",
+  "filename": "agnostic-jordy-16-cropped.png"
+ },
+ {
+  "postID": 162,
+  "text": "O aborto é a pena de morte de inocentes!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 850,
+  "datePosted": "4 de março de 2020",
+  "filename": "agnostic-jordy-17-cropped.png"
+ },
+ {
+  "postID": 163,
+  "text": "Vote 36 para Prefeito de Niterói: Allan Lyra\nVote nos candidatos a vereador da Aliança por Niterói: PTC 36 e Podemos 19\n#AllanLyraPrefeito36",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 952,
+  "datePosted": "30 de setembro de 2020",
+  "filename": "agnostic-jordy-18-cropped.png"
+ },
+ {
+  "postID": 164,
+  "text": "Na reportagem do R7 sobre o vídeo da Gleise Hoffmann pedindo ajuda a Al Jazeera, meu comentário no twitter foi colocado em destaque. Acho que o pessoal gostou rs.\nhttps:\/\/noticias.r7.com\/...\/video-de-gleisi-hoffmann-para...",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 81,
+  "datePosted": "19 de abril de 2018",
+  "filename": "agnostic-jordy-19-cropped.png"
+ },
+ {
+  "postID": 165,
+  "text": "Cadastro Nacional de Assassinos de Policiais é aprovado na CCJ. Um partido foi contra. Dou um doce para quem adivinhar. Começa com P e termina com Sol.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "1,9 mil",
+  "datePosted": "9 de outubro de 2019",
+  "filename": "agnostic-jordy-20-cropped.png"
+ },
+ {
+  "postID": 166,
+  "text": "Amanhã, 7 de março, estarei em Itaperuna para o Encontrão da Direita Noroeste Fluminense. Será às 18:30 na Avenida Deputado Carlos Pinto Filho, 345. Aguardo vocês lá!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 172,
+  "datePosted": "6 de março de 2020",
+  "filename": "agnostic-jordy-21-cropped.png"
+ },
+ {
+  "postID": 167,
+  "text": "O mundo dá voltas. Parafraseando o filósofo Chaves: era melhor ter ido ver o Pelé.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "1 mil",
+  "datePosted": "2 de outubro de 2018",
+  "filename": "agnostic-jordy-22-cropped.png"
+ },
+ {
+  "postID": 168,
+  "text": "Conversinha entre o jornalista da Globonews, Octavio Guedes, e o Procurador Geral do RJ que investiga Flávio Bolsonaro. As investigacoes correm em segredo de justiça (ou deveriam correr). Não sei se essa foi a conversa, mas parafraseando a música da jennifer \"mas poderia ser\".",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 707,
+  "datePosted": "24 de janeiro de 2019",
+  "filename": "agnostic-jordy-23-cropped.png"
+ },
+ {
+  "postID": 169,
+  "text": "🇧🇷",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "5,4 mil",
+  "datePosted": "25 de julho de 2020",
+  "filename": "agnostic-jordy-24-cropped.png"
+ },
+ {
+  "postID": 170,
+  "text": "Em Angra dos Reis, batendo um papo com o vereador Gedai Oliveira Sousa, grande parceiro e aliado político.\nCom Gustavo Schmidt",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 65,
+  "datePosted": "17 de julho de 2018",
+  "filename": "agnostic-jordy-25-cropped.png"
+ },
+ {
+  "postID": 171,
+  "text": "Cotas são populistas e preconceituosas, mas essa medida da Magazine Luiza é criminosa! Racismo é crime!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "2,7 mil",
+  "datePosted": "19 de setembro de 2020",
+  "filename": "agnostic-jordy-26-cropped.png"
+ },
+ {
+  "postID": 172,
+  "text": "Nunca!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 870,
+  "datePosted": "7 de julho de 2019",
+  "filename": "agnostic-jordy-27-cropped.png"
+ },
+ {
+  "postID": 173,
+  "text": "Parafraseando o grande Muricy Ramalho: aqui é TRABALHO!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 427,
+  "datePosted": "21 de maio de 2019",
+  "filename": "agnostic-jordy-28-cropped.png"
+ },
+ {
+  "postID": 174,
+  "text": "Parabéns a todos policiais rodoviários federais pelo seu dia. Desde que o Presidente Bolsonaro assumiu o mandato, a PRF tem tido total apoio e auxílio do Governo Federal para fazer operações, tendo recordes históricos de apreensões de drogas. Continuem assim! Na foto, meu amigo, vereador de São João de Meriti é policial rodoviário federal Charlles Batista.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 969,
+  "datePosted": "23 de julho de 2020",
+  "filename": "agnostic-jordy-29-cropped.png"
+ },
+ {
+  "postID": 175,
+  "text": "Amanhã, sábado, às 15hs, faremos a inauguração de nosso comitê de campanha. Compareça com sua família e amigos.\nLocal: Rua Dr. Celestino, 133 - Centro, Niterói\n#AllanLyraPrefeito36",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 620,
+  "datePosted": "9 de outubro de 2020",
+  "filename": "agnostic-jordy-30-cropped.png"
+ },
+ {
+  "postID": 176,
+  "text": "A deputada Bia Kicis participou hoje (22) de um almoço com os novos parlamentares, a convite do presidente em exercício da CNI, Paulo Afonso Ferreira, para discutir temas e proposições de interesse da Indústria que tramitam ou venham tramitar no Congresso Nacional. Na ocasião, a Confederação aproveitou para apresentar a equipe que acompanha as matérias de interesse da CNI na Câmara dos Deputados e no Senado. A deputada Bia Kicis participou hoje (22) de um almoço com os novos parlamentares, a convite do presidente em exercício da CNI, Paulo Afonso Ferreira, para discutir temas e proposições de interesse da Indústria que tramitam ou venham tramitar no Congresso Nacional. Na ocasião, a Confederação aproveitou para apresentar a equipe que acompanha as matérias de interesse da CNI na Câmara dos Deputados e no Senado.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 425,
+  "datePosted": "22 de janeiro de 2019",
+  "filename": "agnostic-kicis-6-cropped.png"
+ },
+ {
+  "postID": 177,
+  "text": "Ótima notícia!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "20 mil",
+  "datePosted": "15 de outubro de 2020",
+  "filename": "agnostic-kicis-7-cropped.png"
+ },
+ {
+  "postID": 178,
+  "text": "Quem se lembra da \"tia Anastácia\" do Sítio do Pica-Pau Amarelo? \nVia:  Sérgio Camargo!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "18 mil",
+  "datePosted": "3 de dezembro de 2020",
+  "filename": "agnostic-kicis-8-cropped.png"
+ },
+ {
+  "postID": 179,
+  "text": "Meus jovens eleitores e cabos eleitorais. Agradeço a confiança e a campanha!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 863,
+  "datePosted": "20 de março de 2019",
+  "filename": "agnostic-kicis-9-cropped.png"
+ },
+ {
+  "postID": 180,
+  "text": "Bia Kicis e bancada do DF reúnem-se com Sérgio Moro para tratar da segurança no Distrito Federal.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 748,
+  "datePosted": "29 de março de 2019",
+  "filename": "agnostic-kicis-10-cropped.png"
+ },
+ {
+  "postID": 181,
+  "text": "https:\/\/www.facebook.com\/permalink.php?story_fbid=1754077981302198&id=1077696162273720",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "4 mil",
+  "datePosted": "11 de maio de 2018",
+  "filename": "agnostic-kicis-11-cropped.png"
+ },
+ {
+  "postID": 182,
+  "text": "O ministro da Justiça e Segurança Pública alertou o congresso sobre a necessidade de trazer à discussão do pacote anticrime e implementá-lo. Uma atitude necessária. O Brasil está com você nessa, ministro!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "2,3 mil",
+  "datePosted": "26 de março de 2019",
+  "filename": "agnostic-kicis-12-cropped.png"
+ },
+ {
+  "postID": 183,
+  "text": "Dia de encontro formal e apresentações : uma conversa com o presidente da Câmara, Rodrigo Maia , ao lado do recém-eleito senador Izalci Lucas\n#BiaKicis #BiaKicisFederalDF",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 467,
+  "datePosted": "16 de outubro de 2018",
+  "filename": "agnostic-kicis-13-cropped.png"
+ },
+ {
+  "postID": 184,
+  "text": "https:\/\/www.facebook.com\/permalink.php?story_fbid=1660723393970991&id=1077696162273720",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "2,6 mil",
+  "datePosted": "11 de fevereiro de 2018",
+  "filename": "agnostic-kicis-14-cropped.png"
+ },
+ {
+  "postID": 185,
+  "text": "Relatora de projeto do pacote anticrime PLP 38\/19 apoia Sérgio Moro em audiência na comissão de segurança pública e combate ao crime organizado.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "1,5 mil",
+  "datePosted": "8 de maio de 2019",
+  "filename": "agnostic-kicis-15-cropped.png"
+ },
+ {
+  "postID": 186,
+  "text": "Hoje conheci pessoalmente @augustonunesjp de quem sou fã. Relembramos o momento em que ele recebeu o furo do “ namoro” entre o então candidato @jairmessiasbolsonaro e Paulo Guedes. Grandes momentos!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "2,5 mil",
+  "datePosted": "16 de julho de 2019",
+  "filename": "agnostic-kicis-16-cropped.png"
+ },
+ {
+  "postID": 187,
+  "text": "R$ MILHÕES EM PROPINA",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 856,
+  "datePosted": "29 de julho de 2019",
+  "filename": "agnostic-kicis-17-cropped.png"
+ },
+ {
+  "postID": 188,
+  "text": "Nosso encontro será neste sábado, às 10h, na Associação Comercial do DF\/ ACDF – Setor Comercial Sul, Q. 2, Ed. Palácio do Comércio, Asa Sul, Brasília - DF. Solicitamos o seu empenho de participação, pois neste encontro serão esclarecidas todas as questões referentes ao apoiamento à criação do Aliança pelo Brasil.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "1,3 mil",
+  "datePosted": "16 de janeiro de 2020",
+  "filename": "agnostic-kicis-18-cropped.png"
+ },
+ {
+  "postID": 189,
+  "text": "A matéria será submetida a sessão conjunta do Congresso e da sua aprovação depende o pagamento de BPC e aposentadoria dos mais pobres.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "1,1, mil",
+  "datePosted": "11 de junho de 2019",
+  "filename": "agnostic-kicis-19-cropped.png"
+ },
+ {
+  "postID": 190,
+  "text": "Hoje nos encontraremos às 21:00 h para aquele papo bacana sobre a semana. Até lá! Vote pelo link https:\/\/premio.congressoemfoco.com.br\/polls\/free\/25",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 265,
+  "datePosted": "25 de agosto de 2019",
+  "filename": "agnostic-kicis-20-cropped.png"
+ },
+ {
+  "postID": 191,
+  "text": "https:\/\/www.facebook.com\/permalink.php?story_fbid=1658248690885128&id=1077696162273720",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 895,
+  "datePosted": "9 de fevereiro de 2018",
+  "filename": "agnostic-kicis-21-cropped.png"
+ },
+ {
+  "postID": 192,
+  "text": "DEPUTADA BIA KICIS HOJE EM VISITA AO ADMINISTRADOR DE CEILANDIA, DELEGADO FERNANDO FERNANDES E COMERCIANTES  DA CIDADE. VOLTANDO NAS BASES. MANDATO VOLANTE.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 346,
+  "datePosted": "22 de fevereiro de 2019",
+  "filename": "agnostic-kicis-22-cropped.png"
+ },
+ {
+  "postID": 193,
+  "text": "62ª fase da operação Lava Jato.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 780,
+  "datePosted": "31 de julho de 2019",
+  "filename": "agnostic-kicis-23-cropped.png"
+ },
+ {
+  "postID": 194,
+  "text": "ERRO GRAVE em publicação na Revista do Correio Braziliense deste domingo. O colunista Bernardo Bittar publicou uma nota em que afirma que critiquei o Presidente da OAB\/DF, Délio Lins e Silva Jr no Plenário. Na verdade critiquei e chamei de vergonhosa a atuação do Presidente da OAB Nacional, Felipe Santa Cuz. Confiram o vídeo no link abaixo.\nhttps:\/\/youtu.be\/BDpPg6z8F64",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 926,
+  "datePosted": "10 de março de 2019",
+  "filename": "agnostic-kicis-24-cropped.png"
+ },
+ {
+  "postID": 195,
+  "text": "CCJ - Audiência Pública Extraordinária - Candidatura Independente - Autor: deputado Luiz Philippe de Orleans e Bragança",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 207,
+  "datePosted": "13 de agosto de 2019",
+  "filename": "agnostic-kicis-25-cropped.png"
+ },
+ {
+  "postID": 196,
+  "text": "Estarei hoje às 10H no Programa Morning Show da Rádio Jovem Pan. É daqui a pouquinho. \nNÃO PERCAM!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 412,
+  "datePosted": "16 de julho de 2019",
+  "filename": "agnostic-kicis-26-cropped.png"
+ },
+ {
+  "postID": 197,
+  "text": "Texto de autoria da deputada Bia Kicis revoga a PEC da Bengala, dando ao presidente a possibilidade de apontar substitutos para Lewandowski e Rosa Weber.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "4,5 mil",
+  "datePosted": "8 de outubro de 2019",
+  "filename": "agnostic-kicis-27-cropped.png"
+ },
+ {
+  "postID": 198,
+  "text": "Sensacional lançamento da Frente Parlamentar do Escola Sem Partido na Alesp.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 597,
+  "datePosted": "1 de junho de 2019",
+  "filename": "agnostic-kicis-28-cropped.png"
+ },
+ {
+  "postID": 199,
+  "text": "A popularidade só cresce.\nFonte: https:\/\/veja.abril.com.br\/...\/pesquisa-exclusiva...\/",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "25 mil",
+  "datePosted": "24 de julho de 2020",
+  "filename": "agnostic-kicis-29-cropped.png"
+ },
+ {
+  "postID": 200,
+  "text": "19\/02\/2019, posse do novo Presidente da Frente Parlamentar da Agricultura. #DeputadaBiaKicis #BrasilAcimaDeTudo #DeusAcimaDeTodos",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 375,
+  "datePosted": "20 de fevereiro de 2019",
+  "filename": "agnostic-kicis-30-cropped.png"
+ },
+ {
+  "postID": 201,
+  "text": "V E R G O N H A \nVejam as últimas caricaturas que circularam na internet sobre a atual situação dos representantes e gestores do Piauí. \nNão precisamos continuar reféns das velhas raposas políticas de nosso Estado. Vamos juntos Renovar o Piauí e o Brasil.\n#RenovaBr🇧🇷\n#bolsonaro2018🇧🇷\n#RenovaPi\n#FábioSérvio2018🇧🇷\n#MajorDiegoMelo2018🇧🇷\n#mudaPiauí",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 19,
+  "datePosted": "18 de março de 2018",
+  "filename": "agnostic-melo-6-cropped.png"
+ },
+ {
+  "postID": 202,
+  "text": "Essa luta vale a pena sim ! 🇧🇷\nPrisão em segunda instância , Eu apoio!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 113,
+  "datePosted": "8 de dezembro de 2019",
+  "filename": "agnostic-melo-7-cropped.png"
+ },
+ {
+  "postID": 203,
+  "text": "Agimos legitimamente, utilizando do uso progressivo da força e em situação de legítima defesa. Graças a Deus, a justiça reconheceu com essa decisão a legitimidade da nossa ação. Obrigado a todos(as) os amigos(as) pelas manifestações de apoio e confiança🤝🇧🇷Deus no Comando🙌🙏 https:\/\/www.portalaz.com.br\/search @ Terezina, Piaui, Brazil",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 297,
+  "datePosted": "17 de agosto de 2019",
+  "filename": "agnostic-melo-8-cropped.png"
+ },
+ {
+  "postID": 204,
+  "text": "Que Deus abençoe todas as famílias nesse dia especial.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 19,
+  "datePosted": "15 de maio de 2020",
+  "filename": "agnostic-melo-9-cropped.png"
+ },
+ {
+  "postID": 205,
+  "text": "Dia da Independência de Teresina!\nPatriota realiza sua Convenção próximo dia 07 de Setembro, a partir das 10hs, na Câmara Municipal de Teresina!\nParticipe!\nDEUS, PÁTRIA E FAMÍLIA!\nVAMOS DEVOLVER TERESINA AOS TERESINENSES 🤝 🇧🇷🙏🙌",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 150,
+  "datePosted": "5 de setembro de 2020",
+  "filename": "agnostic-melo-10-cropped.png"
+ },
+ {
+  "postID": 206,
+  "text": "Hoje a visita oficial do nosso Presidente Jair Messias Bolsonaro ao Presidente Donald Trump dos Estados Unidos da América marca o início de um novo momento para nossa Nação. \nGrande Dia!\n#merepresenta #bolsonaropresidente  #brasil🇧🇷 #eua #direitaunida #direitapiaui #direitadaopressão #endireitapiaui #MajorDiegoMelo #brasilacimadetudo #deusacimadetodos \n#ptnuncamais #socialismonuncamais @ Teresina",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 25,
+  "datePosted": "19 de março de 2019",
+  "filename": "agnostic-melo-11-cropped.png"
+ },
+ {
+  "postID": 207,
+  "text": "Logo mais vamos participar do Alerta Geral m, com Tony Trindade e toda equipe, tratando sobre nosso Projeto de Mudança de Verdade para Teresina.\n#Teresina\n#Piauí \n#Deus #Pátria #Família \n#Liberdade #Respeito\n#TeresinaAcimadeTudo \n#DeusAcimadeTodos",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 121,
+  "datePosted": "10 de agosto de 2020",
+  "filename": "agnostic-melo-12-cropped.png"
+ },
+ {
+  "postID": 208,
+  "text": "O Miguel reuniu seus amigos para ouvir nossas propostas para Teresina .\nObrigado Miguel , estamos juntos no time do 5️⃣1️⃣🙌!\n#teresina #MajorDiego51",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 48,
+  "datePosted": "6 de outubro de 2020",
+  "filename": "agnostic-melo-13-cropped.png"
+ },
+ {
+  "postID": 209,
+  "text": "Governo Bolsonaro na luta contra o CoronaVírus.\n#brasilacimadetudodeusacimadetodos \n @ Teresina",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 62,
+  "datePosted": "23 de março de 2020",
+  "filename": "agnostic-melo-14-cropped.png"
+ },
+ {
+  "postID": 210,
+  "text": "A excrescência criada no Brasil que deram o nome de Audiência de Custódia é o pior absurdo que nossa corte antimajoritária conseguiu nos impor até o momento. \nPrecisamos reagir. \n#impunidadenão \n#audiênciadecustódianão",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 16,
+  "datePosted": "20 de janeiro de 2019",
+  "filename": "agnostic-melo-15-cropped.png"
+ },
+ {
+  "postID": 211,
+  "text": "Estive  na manhã desta terça-feira (14\/08) na comunidade Buriti do Sobrado , município de Castelo do Piauí juntamente com o grande líder político da região Hygor Ferro  visitando o Sr. Francisco. Na oportunidade tivemos a aportunidade de conhecer um pouco da realidade local e apresentar as nossas propostas para um Piauí Novo.#mudapiaui#renovabr#majordiegomelo",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 13,
+  "datePosted": "14 de agosto de 2018",
+  "filename": "agnostic-melo-16-cropped.png"
+ },
+ {
+  "postID": 212,
+  "text": "Qual sua opinião??",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 339,
+  "datePosted": "18 de maio de 2020",
+  "filename": "agnostic-melo-17-cropped.png"
+ },
+ {
+  "postID": 213,
+  "text": "Estivemos com o Deputado Federal @capitaoalbertoneto , do Amazonas e Cel. Carlos , no encontro da FENEME.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 4,
+  "datePosted": "20 de fevereiro de 2019",
+  "filename": "agnostic-melo-18-cropped.png"
+ },
+ {
+  "postID": 214,
+  "text": "Justiça Federal recebeu Denúncia movida pelo Ministério Público Federal contra o Governador Wellington Dias, o Secretário de Fazenda Rafael Fonteles e Mauro Gomes de Lima, agora qualificados como Réus nessa Ação Civil de Improbidade Adminstrativa.\nQuem cometeu crimes tem que pagar pelos crimes que cometeu!\n#justiça\n#combateacorrupcao #piaui #endireitapiaui #endireitabrasil  @ Em Teresina, Piauí",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 126,
+  "datePosted": "4 de fevereiro de 2020",
+  "filename": "agnostic-melo-19-cropped.png"
+ },
+ {
+  "postID": 215,
+  "text": "Reunião proveitosa com o Coronel Edvaldo Marques tratando de assunto de interesse da AMEPI. JSMF",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 11,
+  "datePosted": "13 de fevereiro de 2019",
+  "filename": "agnostic-melo-20-cropped.png"
+ },
+ {
+  "postID": 216,
+  "text": "Que Deus abençoe nossas crianças.🙏🙌 Visitas ilustres na AMEPI👨‍👩‍👧🇧🇷 @ Amepi",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 27,
+  "datePosted": "17 de dezembro de 2019",
+  "filename": "agnostic-melo-21-cropped.png"
+ },
+ {
+  "postID": 217,
+  "text": "Atlas da Violência 2019 revela o crescimento em 2017 da Epidêmica situação da Violência em nosso País. \nEmbora somente analise os crimes de homicídio  que representam apenas 1% de todos os crimes em nossa Nação, o Atlas da Violência 2019 revela o caos em que vivia o Brasil em 2017 e nos anos anteriores, o crescimento da Violência principalmente na região Norte e Nordeste nos últimos 10 anos (2007-2017), a abismal diferença regional e de Estado para Estado, entre outras análises, algumas apenas ideológicas e desnecessárias, contudo, trazendo informações relevantes e que colocam o Brasil como um dos Países mais violentos do Planeta.\nSegundo o Atlas, o Piauí mantém seus números elevados, aumentando consideralmente o número de homicídios de 2015 para 2016, e com uma leve queda em 2017, mas com um aumento geral de mais de 63% nos seus índices de homicídio nos últimos 10 anos (2007-2017). Dados que demandam uma atitude decisiva para que retomemos a tranquilidade pública perdida em nosso Estado na última década. \nImportante registrar que somente agora em 2019, com Bolsonaro na Presidência da República, registramos no Brasil uma queda considerável dos índices de homicídio em todo nosso País, o que demonstra fatalmente a equivocada política de segurança pública adotada nos últimos 30 anos de esquerda no Governo, bem como as acertadas medidas e posicionamentos adotados pelo atual Governo Bolsonaro, embora saibamos que ainda precisamos de muitas mudanças, investimentos e dedicada atenção para que possamos realmente mudar o Sistema de Segurança Pública equivocado e falido do Brasil.\n#atlasdaviolencia #piauimaisseguro #brasilmaisseguro #violência #policial #policialmilitar #policialcivil #pmpi #bmpi #segurancapublicanopiaui #brasilacimadetudo #deusacimadetodos @ Amepi",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 6,
+  "datePosted": "8 de junho de 2019",
+  "filename": "agnostic-melo-22-cropped.png"
+ },
+ {
+  "postID": 218,
+  "text": "Convidamos todos os amigos para, nesta quarta-feira, 11.11, 16Hs, participar da nossa CAMINHADA PATRIÓTICA pelo BAIRRO SANTA CLARA! \n.\nVamos mostrar a todos que temos a chance real de mudar Teresina.\n.\nVamos Juntos Devolver Teresina aos Teresinenses! \n.\nwww.majordiegomelo.com.br \n.\n#Deus #Pátria #Família #Fé #Coragem #MudançaDeVerdade #Patriota #MajorDiego2020 #MajorDiego51 #TeresinaAcimadeTudo #DeusAcimadeTodos \nVOTE ✅5️⃣1️⃣",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 16,
+  "datePosted": "11 de novembro de 2020",
+  "filename": "agnostic-melo-23-cropped.png"
+ },
+ {
+  "postID": 219,
+  "text": "Fechando a semana em Brasília estivemos reunidos com Dra. @adrianasousapiaui_ Diretora do Departamento de Saúde Digital do Ministério da Saúde, e com o Dr. Paulo Fernando Secretário Nacional de Promoção e Defesa da Pessoa Idosa, que estão trazendo recursos e ações do Governo Federal para o Piauí nas áreas da saúde, inclusive para o HPM da PMPI e na área das políticas públicas para a melhor idade, com inaugurações já marcadas em Piripiri e Brasileira ainda para o mês de outubro próximo.\nNa foto com Dr. @paulofernandodf está o guerreiro Deputado Federal Gaúcho @bibonunes1  que tivemos a honra de conhecer pessoalmente e conversar sobre a luta travada no Congresso para endireitar o Brasil.\n#forçaehonra #piaui #saude #politicaspublicas #idosos #governobolsonaro #vemcomigo #endireitapiaui #endireitabrasil #deus #patria #familia @ Brasília DF -  Capital Do Brasil.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 37,
+  "datePosted": "21 de setembro de 2019",
+  "filename": "agnostic-melo-24-cropped.png"
+ },
+ {
+  "postID": 220,
+  "text": "Preparando o 1° Mutirão do Aliança Pelo Brasil simultaneamente em todo o Piauí com a Dra. Adriana Sousa e irmãos Bolsonarianos de luta.\nAguarde mais informações.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 259,
+  "datePosted": "24 de janeiro de 2020",
+  "filename": "agnostic-melo-25-cropped.png"
+ },
+ {
+  "postID": 221,
+  "text": "Visita ao centro de Teresina e conversa com trabalhadores e comerciantes que labutam diariamente para trazer o pão de cada dia para suas famílias e contribuirem pra o desenvolvimento de nossa cidade .\nSeguimos na luta ! 🤝🇧🇷\n#teresina #emprego #renda #comércio #majordiego",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 144,
+  "datePosted": "23 de setembro de 2020",
+  "filename": "agnostic-melo-26-cropped.png"
+ },
+ {
+  "postID": 222,
+  "text": "Estamos no ar na @cidadefmnet",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 133,
+  "datePosted": "1 de setembro de 2020",
+  "filename": "agnostic-melo-27-cropped.png"
+ },
+ {
+  "postID": 223,
+  "text": "TERESINA,VERÁS QUE UM FILHO TEU NÃO FOGE À LUTA! 🇧🇷\nConvenção municipal do Patriota que homologou nesta segunda-feira, 07, a chapa Major Diego Melo candidato a prefeito e a médica Elisvânia Rodrigues de vice.\nVamos devolver Teresina aos teresinenses!\nDeus no comando !\n.\n.\n.\n📷imagens Roberta Aline\/ Cidade Verde",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 419,
+  "datePosted": "7 de setembro de 2020",
+  "filename": "agnostic-melo-28-cropped.png"
+ },
+ {
+  "postID": 224,
+  "text": "Uma honra ser recebido por nossos amigos Benício e Cláudia em sua residência Santa Maria da Codipi  para conversarmos sobre renovação e mudanças necessárias para o Piauí e o Brasil. Deus no Comando 🙏👨‍👩‍👧🤝🇧🇷",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 6,
+  "datePosted": "25 de julho de 2018",
+  "filename": "agnostic-melo-29-cropped.png"
+ },
+ {
+  "postID": 225,
+  "text": "Visitando amigos e amigos de amigos ! Acompanhando a Candidata a Deputada Estadual Gracilene , em visita a casa do Sr.Nem, no Bairro Planalto Ininga.\nA seguir reunião na vila Bandeirantes, junto ao candidato a deputado estadual professor Castelo. Muito bom estar com pessoas que nos trazem ideias e incentivos !",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 12,
+  "datePosted": "22 de agosto de 2018",
+  "filename": "agnostic-melo-30-cropped.png"
+ },
+ {
+  "postID": 226,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "9,3 mil",
+  "datePosted": "17 de agosto de 2020",
+  "filename": "agnostic-martins-6-cropped.png"
+ },
+ {
+  "postID": 227,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "2,6 mil",
+  "datePosted": "20 de agosto de 2020",
+  "filename": "agnostic-martins-7-cropped.png"
+ },
+ {
+  "postID": 228,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "6,2 mil",
+  "datePosted": "2 de maio de 2020",
+  "filename": "agnostic-martins-8-cropped.png"
+ },
+ {
+  "postID": 229,
+  "text": "Hoje tem festa na corte. Parabéns ao Rei Pelé pelos seus 78 anos.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": 916,
+  "datePosted": "23 de outubro de 2018",
+  "filename": "agnostic-martins-9-cropped.png"
+ },
+ {
+  "postID": 230,
+  "text": "Trump afirmou em entrevista que a OMS lidou mal com a pandemia, dando muita atenção aos dados propagados pela China.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "6,8 mil",
+  "datePosted": "4 de maio de 2020",
+  "filename": "agnostic-martins-10-cropped.png"
+ },
+ {
+  "postID": 231,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "10 mil",
+  "datePosted": "19 de agosto de 2020",
+  "filename": "agnostic-martins-11-cropped.png"
+ },
+ {
+  "postID": 232,
+  "text": "Confederação Israelita processará Ciro por declaração racista contra judeus.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "1,8 mil",
+  "datePosted": "22 de abril de 2019",
+  "filename": "agnostic-martins-12-cropped.png"
+ },
+ {
+  "postID": 233,
+  "text": "Segundo reportagem da TV Record, o dinheiro do pagamento do PCC a advogados ligados ao PT “teria sido usado para mover ações no Supremo Tribunal Federal e na Organização dos Estados Americanos, a OEA, com o objetivo de derrubar uma portaria do Ministério da Justiça que endureceu as regras nas penitenciárias federais”.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "5,9 mil",
+  "datePosted": "6 de outubro de 2019",
+  "filename": "agnostic-martins-13-cropped.png"
+ },
+ {
+  "postID": 234,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "9,2 mil",
+  "datePosted": "18 de junho de 2020",
+  "filename": "agnostic-martins-14-cropped.png"
+ },
+ {
+  "postID": 235,
+  "text": "A realidade não ajuda a narrativa da esquerda de que o governo está destruindo a Amazônia.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "1,9 mil",
+  "datePosted": "1 de outubro de 2019",
+  "filename": "agnostic-martins-15-cropped.png"
+ },
+ {
+  "postID": 236,
+  "text": "Após reclamação da oposição, o governo divulgou todos os números que embasaram a reforma da previdência. Além da geração de empregos, temos uma projeção de crescimento do PIB de 3% ao ano e uma economia de R$1,2 trilhão. Vamos em frente! Esta reforma é de todos e para todos.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "1,5 mil",
+  "datePosted": "27 de abril de 2019",
+  "filename": "agnostic-martins-16-cropped.png"
+ },
+ {
+  "postID": 237,
+  "text": "Primeiro lote da vacina de Oxford deve chegar ainda este ano, segundo ministério da Saúde.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "9,9 mil",
+  "datePosted": "29 de julho de 2020",
+  "filename": "agnostic-martins-17-cropped.png"
+ },
+ {
+  "postID": 238,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "3,1 mil",
+  "datePosted": "6 de fevereiro de 2020",
+  "filename": "agnostic-martins-18-cropped.png"
+ },
+ {
+  "postID": 239,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "9,5 mil",
+  "datePosted": "23 de junho de 2020",
+  "filename": "agnostic-martins-19-cropped.png"
+ },
+ {
+  "postID": 240,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "7,8 mil",
+  "datePosted": "4 de setembro de 2020",
+  "filename": "agnostic-martins-20-cropped.png"
+ },
+ {
+  "postID": 241,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "7,8 mil",
+  "datePosted": "12 de abril de 2020",
+  "filename": "agnostic-martins-21-cropped.png"
+ },
+ {
+  "postID": 242,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "2,8 mil",
+  "datePosted": "23 de abril de 2020",
+  "filename": "agnostic-martins-22-cropped.png"
+ },
+ {
+  "postID": 243,
+  "text": "Ministro Luiz Fux derruba decisão de Toffoli e suspende juiz de garantias por tempo indeterminado",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "10 mil",
+  "datePosted": "22 de janeiro de 2020",
+  "filename": "agnostic-martins-23-cropped.png"
+ },
+ {
+  "postID": 244,
+  "text": "🇧🇷",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "5,6 mil",
+  "datePosted": "17 de julho de 2019",
+  "filename": "agnostic-martins-24-cropped.png"
+ },
+ {
+  "postID": 245,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "10 mil",
+  "datePosted": "20 de outubro de 2020",
+  "filename": "agnostic-martins-25-cropped.png"
+ },
+ {
+  "postID": 246,
+  "text": "Obstrução total!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "5,2 mil",
+  "datePosted": "8 de novembro de 2019",
+  "filename": "agnostic-martins-26-cropped.png"
+ },
+ {
+  "postID": 247,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "4,4 mil",
+  "datePosted": "9 de julho de 2020",
+  "filename": "agnostic-martins-27-cropped.png"
+ },
+ {
+  "postID": 248,
+  "text": "Parabéns aos 7300 policiais envolvidos nesta mega operação. O Brasil agradece.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "2,2 mil",
+  "datePosted": "25 de abril de 2019",
+  "filename": "agnostic-martins-28-cropped.png"
+ },
+ {
+  "postID": 249,
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "1,6 mil",
+  "datePosted": "20 de setembro de 2019",
+  "filename": "agnostic-martins-29-cropped.png"
+ },
+ {
+  "postID": 250,
+  "text": "O presidente disse em entrevista a Danilo Gentili que o secretário de Privatizações Salim Mattar está cuidando do processo de por fim a Estatal de TV e Rádio.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "3 mil",
+  "datePosted": "1 de junho de 2019",
+  "filename": "agnostic-martins-30-cropped.png"
+ },
+ {
+  "postID": 251,
+  "text": "Parabéns a toda corporação do 20º Batalhão de Polícia Militar Metropolitano -Barueri\n#capitãoaugusto #deputadofederal",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 54,
+  "datePosted": "29 de outubro de 2019",
+  "filename": "policy-augusto-1-cropped.png"
+ },
+ {
+  "postID": 252,
+  "text": "Como tenho feito nos últimos anos, começo agora a visita aos Batalhões do Interior e Capital para levar informações de interesse dos PMs, em especial sobre a Reforma da Previdência, que será apresentada em fevereiro na Câmara dos Deputados.\nDia 22 de janeiro: terça feira\n09:00 h Batalhão de ASSIS\n11:00 h Batalhão de  PRES PRUDENTE\n14:00 h Batalhão de DRACENA\n17:00 h Batalhão de ANDRADINA",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1001,
+  "initLike": 53,
+  "datePosted": "21 de janeiro de 2019",
+  "filename": "policy-augusto-2-cropped.png"
+ },
+ {
+  "postID": 253,
+  "text": "O Governo Bolsonaro não faz como outros governos que privilegiava os grandes produtores amigos do rei. O trabalho é para fomentar a atividade de quem realmente precisa.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": 444,
+  "datePosted": "18 de junho de 2019",
+  "filename": "policy-jordy-1-cropped.png"
+ },
+ {
+  "postID": 254,
+  "text": "Projetos que serão muito úteis para reduzir a impunidade no Brasil!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "3,3 mil",
+  "datePosted": "3 de dezembro de 2020",
+  "filename": "policy-jordy-2-cropped.png"
+ },
+ {
+  "postID": 255,
+  "text": "O Projeto de Lei 669\/20, de minha autoria, altera o Código Penal e o ECA para incluir o termo pedofilia nos textos a fim de apontar claramente os crimes já tipificados que abarcam esses atos.\n\nSe aprovado, no Código Penal, o título \"Dos crimes sexuais contra vulnerável\" passará a \"Da pedofilia e dos crimes sexuais contra vulnerável\". No ECA, o nome jurídico de oito artigos (240, 241, 241-A, 241-B, 241-C, 241-D, 241-E e 244-A) será \"Pedofilia\".\nO projeto tramita em caráter conclusivo na CCJ.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1002,
+  "initLike": "2,6 mil",
+  "datePosted": "8 de outubro de 2020",
+  "filename": "policy-jordy-3-cropped.png"
+ },
+ {
+  "postID": 256,
+  "text": "Participei da audiência pública na câmara legislativa do DF para discutir a reestruturação do plano de carreira da polícia militar e do Corpo de Bombeiros militar do DF. Segurança pública é prioridade!",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": 247,
+  "datePosted": "19 de agosto de 2019",
+  "filename": "policy-kicis-1-cropped.png"
+ },
+ {
+  "postID": 257,
+  "text": "Medidas de combate à impunidade do estuprador.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "8,6 mil",
+  "datePosted": "10 de setembro de 2020",
+  "filename": "policy-kicis-2-cropped.png"
+ },
+ {
+  "postID": 258,
+  "text": "Como brasileira, mulher, mãe e parlamentar, repudio à ADI 5581 que pode autorizar o aborto por mulheres com zika vírus. A CF garante a inviolabilidade da vida. A vida é um valor a ser defendido e a possibilidade de microencefalia não justifica matar bebês.\n#NãoaoAborto",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1003,
+  "initLike": "2,6 mil",
+  "datePosted": "22 de abril de 2020",
+  "filename": "policy-kicis-3-cropped.png"
+ },
+ {
+  "postID": 259,
+  "text": "Apoiamos integralmente as 70 medidas contra a corrupção elaboradas em sério trabalho Republicano com a participação de vários especialistas e Entidades como a transparência internacional e o RenovaBr.\nO combate à corrupção tem que ser uma prioridade no Brasil!\n#todosjuntoscontraacorrupção\n#Ptnuncamais\n#renovaBr\n#renovaPiauí\n\nhttps:\/\/www.facebook.com\/360125334431290\/posts\/468819293561901\/",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 8,
+  "datePosted": "11 de junho de 2018",
+  "filename": "policy-melo-1-cropped.png"
+ },
+ {
+  "postID": 260,
+  "text": "Reunião na AMEPI para tratar dos Projetos de Reforma da Previdência Estadual e da necessária Reposição Salarial dos PMs e BMs do Piauí.\nO Governo novamente decepciona em não cumprir com a promessa de apresentar contraproposta de reposição salarial e, ainda, apresentou uma PEC e um Projeto de Lei na ALEPI no dia 03\/12(Mensagens 65 e 66), que, indevidamente, afrontam a Emenda Constitucional 103 e o PL 1645\/19.\nAssim, acordmos de CONVOCAR todos os PMs e BMs para irmos na próxima segunda-feira, 09\/12, para a ALEPI e participarmos da grande mobilização dos servidores Públicos e Militares Estaduais do Piauí contra esse Pacote de.Maldades, a fim de não permitirmos o avanço desse projetos a toque de Caixa como deseja o Governo, de forma que esses Projetos sejam debatidos e que sejam feitas as devidas mudanças no Projeto inicial desse Pacote de Maldades do Governo.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1004,
+  "initLike": 56,
+  "datePosted": "5 de dezembro de 2019",
+  "filename": "policy-melo-2-cropped.png"
+ },
+ {
+  "postID": 261,
+  "text": "Amplicações na Lei da Maria da Penha.\n\nUm dos projetos prevê apreensão de arma de fogo registrada em nome do agressor em até 48 horas depois que a ocorrência da violência chegar à Justiça. O outro garante que depententes da mulher vítima de violência doméstica tenham prioridade na matrícula na instituição de educação básica mais próxima de seu domicílio.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "1,6 mil",
+  "datePosted": "9 de outubro de 2019",
+  "filename": "policy-martins-1-cropped.png"
+ },
+ {
+  "postID": 262,
+  "text": "Meu relatório da MP 871, que combate fraudes no INSS,  vai proporcionar uma economia de cerca de R$ 100 bilhões em dez anos, fora outros avanços, como excluir os sindicatos do processo para a aposentadoria rural especial e inviabilizar uma parcela significativa dos auxílios reclusão.",
+  "postType": "PHOTO",
+  "isMisinfo": 0,
+  "authorID": 1005,
+  "initLike": "2 mil",
+  "datePosted": "10 de maio de 2019",
+  "filename": "policy-martins-2-cropped.png"
+ }
+]

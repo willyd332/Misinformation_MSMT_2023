@@ -25,3 +25,10 @@ Qualtrics.SurveyEngine.setEmbeddedData("policy_melo_url", melo_url)
 Qualtrics.SurveyEngine.setEmbeddedData("policy_martins_url", martins_url)
 
 Qualtics Response ID (Q_R)
+
+
+
+
+ALSO!
+
+- EXCEL FILE NEEDS TO BE CONVERTED TO JSON AND ADDED TO ...../assets/Data/post-data.json
