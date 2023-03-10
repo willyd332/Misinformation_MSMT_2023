@@ -32,7 +32,7 @@ const DynamicMediaProfile = ({ attachedMedia, customCSS }) => {
   return (
     <>
       {attachedMedia && 
-        isPhoto && <img src={imageRef} key={attachedMedia._id} className={customCSS} />
+        isPhoto && <img ref={imageRef} src={imageRef} key={attachedMedia._id} className={customCSS} />
       }
     </>
   );

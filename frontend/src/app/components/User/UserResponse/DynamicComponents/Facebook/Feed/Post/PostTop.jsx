@@ -105,16 +105,15 @@ const PostTop = ({ id, index, postData, imgUrls, postDataUpdated}) => {
               <Text postMessage={singlePost.postMessage} link={singlePost.link} />
             }
 
-
             {(singlePost.type === 'PHOTO' || singlePost.type === 'VIDEO') &&
-            <DynamicMedia index={index} attachedMedia={singlePost.attachedMedia[0]} />
+            <DynamicMedia isURL={imgUrls[index] in postData} index={index} attachedMedia={singlePost.attachedMedia[0]} />
             }
 
             {singlePost.type === 'LINK' ?
               <a href={singlePost.link} className="link-preview" onClick={storeLinkClick} target="_blank" rel="noopener noreferrer">
                 <div className="link-area">
                   <div className="og-image">
-                    <DynamicMedia index={index} attachedMedia={singlePost.attachedMedia[0]} />
+                    <DynamicMedia isURL={imgUrls[index] in postData} index={index} attachedMedia={singlePost.attachedMedia[0]} />
                   </div>
                   <div className="fbPostdescriptions">
                     <div className="og-title">
