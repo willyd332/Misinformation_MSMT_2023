@@ -113,10 +113,10 @@ const PostBottom = ({ id, omitInteractionBar, index, postData, imgUrls, postData
             <div className={'commentEmoji'}></div>
             <p><strong>{socialMediaTranslations?.comment || FB_TRANSLATIONS_DEFAULT.COMMENT}</strong></p>
           </div>
-          <div className="postOption" onClick={openModal}>
+          {/* <div className="postOption" onClick={openModal}>
             <div className={'shareEmoji'}></div>
             <p><strong>{socialMediaTranslations?.share || FB_TRANSLATIONS_DEFAULT.SHARE}</strong></p>
-          </div>
+          </div> */}
         </div>
 
         {/* preserve the parent post data */}
