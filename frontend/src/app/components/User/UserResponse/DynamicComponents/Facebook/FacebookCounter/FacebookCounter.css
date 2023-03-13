@@ -1,0 +1,9 @@
+.counterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counterLikes {
+  margin-left: 5px;
+}

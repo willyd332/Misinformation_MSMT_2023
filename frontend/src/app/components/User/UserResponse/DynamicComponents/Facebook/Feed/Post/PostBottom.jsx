@@ -6,15 +6,19 @@ import { Avatar } from "@material-ui/core";
 import ShareModal from './ShareModal';
 import { FB_TRANSLATIONS_DEFAULT } from '../../../../../../../constants';
 import { FacebookSelector } from '@charkour/react-reactions';
+import FacebookCounter from "../../FacebookCounter/FacebookCounter";
 import InputEmoji from "react-input-emoji";
 import IconSendViaIconduckSvg from '../../../../../../../../assets/Facebook/icon-send-via-iconduck.svg';
 import PostBottomComments from "./PostBottomComments/PostBottomComments";
 import "./Post.css";
 
+const initLikes = [651, 1600, 12000, 50, 5300]
+
 const PostBottom = ({ id, omitInteractionBar, index, postData, imgUrls, postDataUpdated}) => {
   const postMetadata = useSelector(state => selectPostsMetadata(state, id));
   const socialMediaTranslations = useSelector(state => state.socialMedia.socialMediaTranslations);
   const userRegisterData = useSelector(state => state.userRegister.metaData);
+  
 
   const [openCommentBox, setOpenCommentBox] = useState(false);
   const [currentComment, setCurrentComment] = useState("");
@@ -70,13 +74,24 @@ const PostBottom = ({ id, omitInteractionBar, index, postData, imgUrls, postData
     await dispatch(likeFbPost(data, id));
   }
 
+  console.log(postMetadata.initLike)
   return (
     <>
     {!omitInteractionBar &&
       <div onMouseLeave={() => setDisplay(false)}>
         <div className="postActionsContainer">
           <div className="postAction reactionContainer childrenReactions">
-            {display && <FacebookSelector onSelect={handleReactions} iconSize={30} />}
+          {display && <FacebookSelector onSelect={handleReactions} iconSize={30} />}
+          {!display && (imgUrls[index] in postData) &&
+            <div style={{paddingTop: '15px'}}>
+              <FacebookCounter onClick={() => setDisplay(true)} counters={postData[imgUrls[index]]["initLike"]}/>
+            </div>
+          }
+          {!display && !(imgUrls[index] in postData) &&
+            <div style={{paddingTop: '15px'}}>
+              <FacebookCounter onClick={() => setDisplay(true)} counters={initLikes[index]}/>
+            </div>
+          }
           </div>
           <div className="postAction totalComments">
             <p>{(postMetadata?.comments?.length.toString() || "0") + " " + (socialMediaTranslations?.comments || FB_TRANSLATIONS_DEFAULT?.COMMENTS)}</p>
