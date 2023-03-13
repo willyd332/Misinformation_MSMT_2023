@@ -6,12 +6,9 @@ import { Avatar } from "@material-ui/core";
 import ShareModal from './ShareModal';
 import { FB_TRANSLATIONS_DEFAULT } from '../../../../../../../constants';
 import { FacebookSelector } from '@charkour/react-reactions';
-import InputEmoji from "react-input-emoji";
-import IconSendViaIconduckSvg from '../../../../../../../../assets/Facebook/icon-send-via-iconduck.svg';
-import PostBottomComments from "./PostBottomComments/PostBottomComments";
 import "./Post.css";
 
-const PostBottom = ({ id, omitInteractionBar, index, postData, imgUrls, postDataUpdated}) => {
+const PostBottom = ({ id }) => {
   const postMetadata = useSelector(state => selectPostsMetadata(state, id));
   const socialMediaTranslations = useSelector(state => state.socialMedia.socialMediaTranslations);
   const userRegisterData = useSelector(state => state.userRegister.metaData);
@@ -71,9 +68,8 @@ const PostBottom = ({ id, omitInteractionBar, index, postData, imgUrls, postData
   }
 
   return (
-    <>
-    {!omitInteractionBar &&
-      <div onMouseLeave={() => setDisplay(false)}>
+    <div
+      onMouseLeave={() => setDisplay(false)}>
         <div className="postActionsContainer">
           <div className="postAction reactionContainer childrenReactions">
             {display && <FacebookSelector onSelect={handleReactions} iconSize={30} />}
@@ -82,77 +78,59 @@ const PostBottom = ({ id, omitInteractionBar, index, postData, imgUrls, postData
             <p>{(postMetadata?.comments?.length.toString() || "0") + " " + (socialMediaTranslations?.comments || FB_TRANSLATIONS_DEFAULT?.COMMENTS)}</p>
           </div>
         </div>
-        <div className="postOptions">
-          <div className="postOption parentReactions"
-            onMouseOver={() => setDisplay(true)}
-            onClick={(e) => handleToggleLike(e)}>
-              <div className={postMetadata.like.toLowerCase() + 'Emoji'}></div>
-              <p className={postMetadata.like.toLowerCase() + 'Text'}>
-                <strong>
-                {postMetadata.like === 'default' ? socialMediaTranslations?.['like'] || FB_TRANSLATIONS_DEFAULT?.['LIKE'] : 
-                  socialMediaTranslations?.[postMetadata.like.toLowerCase()] || FB_TRANSLATIONS_DEFAULT?.[postMetadata.like]}
-                </strong>
-              </p>
-          </div>
-          <div className="postOption" onClick={toggleComment}>
-            <div className={'commentEmoji'}></div>
-            <p><strong>{socialMediaTranslations?.comment || FB_TRANSLATIONS_DEFAULT.COMMENT}</strong></p>
-          </div>
-          <div className="postOption" onClick={openModal}>
-            <div className={'shareEmoji'}></div>
-            <p><strong>{socialMediaTranslations?.share || FB_TRANSLATIONS_DEFAULT.SHARE}</strong></p>
-          </div>
+      <div className="postOptions">
+        <div className="postOption parentReactions"
+          onMouseOver={() => setDisplay(true)}
+          onClick={(e) => handleToggleLike(e)}>
+            <div className={postMetadata.like.toLowerCase() + 'Emoji'}></div>
+            <p className={postMetadata.like.toLowerCase() + 'Text'}>
+              <strong>
+              {postMetadata.like === 'default' ? socialMediaTranslations?.['like'] || FB_TRANSLATIONS_DEFAULT?.['LIKE'] : 
+                socialMediaTranslations?.[postMetadata.like.toLowerCase()] || FB_TRANSLATIONS_DEFAULT?.[postMetadata.like]}
+              </strong>
+            </p>
         </div>
-
-        {/* preserve the parent post data */}
-        {modalOpen && <ShareModal index={0} id={postMetadata.parentPostId || id} setModalOpen={setModalOpen}/>}
-      </div>
-    }
-
-    {(openCommentBox || omitInteractionBar) && 
+        <div className="postOption" onClick={toggleComment}>
+          <div className={'commentEmoji'}></div>
+          <p><strong>{socialMediaTranslations?.comment || FB_TRANSLATIONS_DEFAULT.COMMENT}</strong></p>
+        </div>
+        <div className="postOption" onClick={openModal}>
+          <div className={'shareEmoji'}></div>
+          <p><strong>{socialMediaTranslations?.share || FB_TRANSLATIONS_DEFAULT.SHARE}</strong></p>
+        </div>
+    </div>
+    {openCommentBox && 
       <div className="comment">
-        {postMetadata.comments?.length > 0 ? postMetadata.comments.map((commentMetaData, index) => (
-          <div key={index}
-            className={index === 0 ? 'fbPostBottomTopMargin' : ''}
-          >
-            <PostBottomComments commentMetaData={commentMetaData} />
-          </div>
-        )) : null}
-
         <div className="createComment">
           <Avatar 
             src={userRegisterData['PROFILEPHOTO'] || ""}
           />
-          {/* <input
-          value={currentComment}
-          onChange={({ target }) => setCurrentComment(target.value)}
-          className="createCommentInputText"
-          type="text"
-          placeholder={socialMediaTranslations?.write_a_comment || FB_TRANSLATIONS_DEFAULT.WRITE_A_COMMENT} /> */}
-          <InputEmoji
+          <form>
+            <input
             value={currentComment}
-            onChange={setCurrentComment}
-            onKeyDown={e => (e.key === 'Enter' ? handleSubmitComment(e) : null)}
-            theme={"light"}
-            placeholder={socialMediaTranslations?.write_a_comment || FB_TRANSLATIONS_DEFAULT.WRITE_A_COMMENT}
+            onChange={({ target }) => setCurrentComment(target.value)}
             className="createCommentInputText"
-          />
-          <button className="postComment" onClick={e => handleSubmitComment(e)} type="submit">
-            {socialMediaTranslations?.post || FB_TRANSLATIONS_DEFAULT.POST}
-          </button>
-          <button 
-            className="postCommentMobile" 
-            onClick={e => handleSubmitComment(e)}
-            type="submit"
-          >
-            <IconSendViaIconduckSvg 
-              fill='gray'
-            />
-          </button>
+            type="text"
+            placeholder={socialMediaTranslations?.write_a_comment || FB_TRANSLATIONS_DEFAULT.WRITE_A_COMMENT} />
+
+            <button className="postComment" onClick={e => handleSubmitComment(e)} type="submit">
+              {socialMediaTranslations?.post || FB_TRANSLATIONS_DEFAULT.POST}
+            </button>
+          </form>
         </div>
+
+        {postMetadata.comments?.length > 0 ? postMetadata.comments.map((comment, idx) => (
+          <div key={idx} className="showComment">
+            <Avatar 
+              src={userRegisterData['PROFILEPHOTO'] || ""}
+            />
+            <p className="displayIndividualComment">{comment}</p>
+          </div>
+        )) : null}
+      </div>}
+      {/* preserve the parent post data */}
+      {modalOpen && <ShareModal id={postMetadata.parentPostId || id} setModalOpen={setModalOpen}/>}
       </div>
-    }
-   </> 
   );
 };
 

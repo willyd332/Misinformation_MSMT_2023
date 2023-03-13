@@ -16,6 +16,4 @@ router.post("/new", uploadFiles.single("file"), facebook.createNewPost);
 
 router.delete("/action/:_id", facebook.deleteAction);
 
-router.post("/post", facebook.updatePost);
-
 export default router;

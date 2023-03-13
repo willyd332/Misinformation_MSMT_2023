@@ -8,7 +8,7 @@ export default (sequelize, DataTypes) => {
     },
     authorId: {
       allowNull: false,
-      type: DataTypes.STRING
+      type: DataTypes.INTEGER
     },
     authorName: {
       allowNull: false,

@@ -11,7 +11,7 @@ import { USER_TRANSLATIONS_DEFAULT } from '../../../constants';
 import { IconKey } from '@tabler/icons';
 import "./UserLogin.css";
 
-const UserLogin = (props) => {
+const UserLogin = () => {
   let history = useHistory();
   const classes = useStyles();
   const dispatch = useDispatch();
@@ -19,8 +19,8 @@ const UserLogin = (props) => {
   const [templateId, setTemplateId] = useState("");
 
   const checkValidity = (id) => {
-    console.log(id)
-    return true;
+    if (id && id.length === 6 && Number(id)) return true;
+    else return false;
   }
 
   const checkTemplateExist = async (code) => {
@@ -29,7 +29,7 @@ const UserLogin = (props) => {
       const tempCode = Number(code);
       try {
         await dispatch(userLogin(tempCode));
-        history.push((`/${tempCode}/participantId` + props.paramString));
+        history.push(`/${tempCode}/participantId`);
       } catch (error) {
         history.push("/");
       }
@@ -40,19 +40,6 @@ const UserLogin = (props) => {
 
   useEffect(() => {
     checkTemplateExist(accessCode);
-  }, []);
-
-  useEffect(() => {
-    console.log("*** Hacking Goes Here***")
-    const urlString = window.location.href
-    let paramString = "?" + urlString.split('?')[1]
-    let queryString = new URLSearchParams(paramString);
-    const param_vals = []
-    for (let pair of queryString.entries()) {
-      param_vals.push(pair[1])
-    }
-    const user_id = param_vals[5]
-    console.log(user_id)
   }, []);
 
   const handleSubmit = async e => {

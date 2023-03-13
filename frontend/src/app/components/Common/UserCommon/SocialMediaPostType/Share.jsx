@@ -5,11 +5,8 @@ import Text from './Text';
 import { Avatar } from "@material-ui/core";
 import { selectSinglePost } from '../../../../selectors/socialMedia';
 import { selectSocialMediaAuthor } from '../../../../selectors/socialMediaAuthors';
-import DynamicMediaProfile from './DynamicMediaProfile';
-import "./Share.css";
 
-// Used for only Facebook share
-const Share = ({ id, index }) => {
+const Share = ({ id }) => {
   const parentSharedPost = useSelector(state => selectSinglePost(state, id));
   const singleAuthor = useSelector(state => selectSocialMediaAuthor(state, parentSharedPost.authorId));
   const [renderSharePost, setRenderSharePost] = useState(null);
@@ -20,14 +17,10 @@ const Share = ({ id, index }) => {
       setRenderSharePost(
         <div className="post">
           <div className="postTop">
-            {
-              parentSharedPost.attachedAuthorPicture ? 
-                <DynamicMediaProfile attachedMedia={parentSharedPost.attachedAuthorPicture} customCSS="fbAuthorProfileImage" /> :
-                <Avatar
-                  src={parentSharedPost.userPost ? (userRegisterData['PROFILEPHOTO'] || "") : ""}
-                  className="fbPostTopAvatar"
-                />
-            }
+            <Avatar
+              src={parentSharedPost.userPost ? (userRegisterData['PROFILEPHOTO'] || "") : ""}
+              className="postTopAvatar"
+            />
             <div className="postTopInfo">
             <h3>{parentSharedPost.userPost ? (userRegisterData['USERNAME'] || "") : 
               (singleAuthor?.authorName || "")
@@ -39,16 +32,16 @@ const Share = ({ id, index }) => {
           <Text className="postMessage" postMessage={parentSharedPost.postMessage} link={parentSharedPost.link} />
 
           {(parentSharedPost.type === 'PHOTO' || parentSharedPost.type === 'VIDEO') &&
-            <DynamicMedia index={index} attachedMedia={parentSharedPost.attachedMedia[0]} />
+            <DynamicMedia attachedMedia={parentSharedPost.attachedMedia[0]} />
           }
 
           {parentSharedPost.type === 'LINK' ?
             <a href={parentSharedPost.link} className="link-preview" target="_blank" rel="noopener noreferrer">
               <div className="link-area">
                 <div className="og-image">
-                <DynamicMedia index={index} attachedMedia={parentSharedPost.attachedMedia[0]} />
+                  <DynamicMedia attachedMedia={parentSharedPost.attachedMedia[0]} />
                 </div>
-                <div className="fbSharedescriptions">
+                <div className="descriptions">
                   <div className="og-title">
                     {parentSharedPost.linkTitle}
                   </div>

@@ -1,10 +1,6 @@
 import "./Text.css";
 
-const Text = ({ postMessage, link, customClassName, charLimit }) => {
-  if (charLimit && !isNaN(charLimit)) {
-    postMessage = postMessage.slice(0, charLimit);
-  }
-  
+const Text = ({ postMessage, link, customClassName }) => {
   return (
     <>
       <div className={customClassName ? customClassName : "postBottom"}>

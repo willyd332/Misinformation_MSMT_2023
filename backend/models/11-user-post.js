@@ -8,11 +8,11 @@ export default (sequelize, DataTypes) => {
     },
     adminPostId: {
       allowNull: true,
-      type: DataTypes.STRING
+      type: DataTypes.INTEGER
     },
     type: {
       allowNull: true,
-      type: DataTypes.ENUM('LINK', 'VIDEO', 'PHOTO', 'TEXT', 'SHARE', 'RETWEET', 'REPLYTO', 'QUOTETWEET', 'UNDORETWEET')
+      type: DataTypes.ENUM('LINK', 'VIDEO', 'PHOTO', 'TEXT', 'SHARE', 'RETWEET', 'REPLYTO', 'QUOTETWEET')
     },
     linkTitle: {
       allowNull: true,
@@ -46,55 +46,21 @@ export default (sequelize, DataTypes) => {
         key: '_id',
         model: 'UserPostAuthor'
       },
-      type: DataTypes.STRING
+      type: DataTypes.INTEGER
     },
     isReplyTo: {
       allowNull: true,
-      type: DataTypes.INTEGER,
-      defaultValue: null
+      type: DataTypes.INTEGER
     },
     isReplyToOrder: {
       allowNull: true,
-      type: DataTypes.STRING,
-      defaultValue: null
-    },
-    quoteTweetTo: {
-      allowNull: true,
-      type: DataTypes.STRING,
-      defaultValue: null
+      type: DataTypes.SMALLINT
     },
     initLike: {
       allowNull: true,
-      type: DataTypes.INTEGER,
-      defaultValue: 0
-    },
-    initReply: {
-      allowNull: false,
-      type: DataTypes.INTEGER,
-      defaultValue: 0
-    },
-    initTweet: {
-      allowNull: false,
-      type: DataTypes.INTEGER,
-      defaultValue: 0
+      type: DataTypes.INTEGER
     },
     datePosted: {
-      allowNull: true,
-      type: DataTypes.STRING
-    },
-    likedBy: {
-      allowNull: true,
-      type: DataTypes.STRING
-    },
-    likedByOverflow: {
-      allowNull: true,
-      type: DataTypes.STRING
-    },
-    retweetedBy: {
-      allowNull: true,
-      type: DataTypes.STRING
-    },
-    retweetedByOverflow: {
       allowNull: true,
       type: DataTypes.STRING
     },

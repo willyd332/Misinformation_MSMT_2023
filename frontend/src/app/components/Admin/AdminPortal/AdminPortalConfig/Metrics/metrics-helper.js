@@ -58,28 +58,20 @@ export const formSocialMediaPageIdsArray = (globalSocialMediaPages) => {
   return globalSocialMediaPagesData;
 };
 
-/* userGlobalTracking
-  Structure: startedTime!~*!postsOrderAdminId!~*!finishedTime
-*/
+/* userGlobalTracking */
+
 const normalizeUserGlobalTracking = (allGlobalTracking) => {
   const normalize = {};
   for (let i = 0; i < allGlobalTracking.length; i++) {
     const currentItem = allGlobalTracking[i]?.pageConfigurations || null;
     if (currentItem) {
+      // const dynamicField = currentItem.type.toLowerCase() + 'PostsOrderAdminIds';
+      const dynamicField = 'facebookPostsOrderAdminIds';
       const metaData = allGlobalTracking[i].pageMetaData || null;
-      let finishTime = "-9999";
-      let orderPosts = "-9999";
-      let startTime = escapeChars(allGlobalTracking[i].createdAt);
       if (metaData) {
         const parseMetaData = JSON.parse(allGlobalTracking[i].pageMetaData);
-        finishTime = escapeChars(parseMetaData['finishedAt']);
-        if (finishTime !== "-9999") {
-          let timeArray = finishTime.split(' ');
-          if (timeArray && timeArray.length > 1) finishTime = timeArray[0] + 'T' + timeArray[1] + 'Z';
-        }
-        orderPosts = escapeChars(JSON.stringify(parseMetaData['facebookPostsOrderAdminIds'])) ||  "-9999";
+        normalize[currentItem._id] = JSON.stringify(parseMetaData[dynamicField]);
       }
-      normalize[currentItem._id] = startTime + "!~*!" + orderPosts + "!~*!" + finishTime;
     }
   }
   return normalize;
@@ -132,7 +124,7 @@ const normalizeUserPostActionsTracking = (globalActionsResponseData) => {
 };
 
 // manually form the array for all the possible actions and then add postId for that action
-const possiblePostActions = ['LIKE', 'LOVE', 'HAHA', 'WOW', 'SAD', 'ANGRY', 'COMMENT', 'REPORT'];
+const possiblePostActions = ['LIKE', 'LOVE', 'HAHA', 'WOW', 'SAD', 'ANGRY', 'COMMENT'];
 export const formulateUserPostActionsTracking = (postActionsResponseData) => {
   const eachRow = [];
   const normalizeUserPostActionsData = normalizeUserPostActionsTracking(postActionsResponseData);
@@ -152,26 +144,17 @@ const normalizeUserPosts = (responseUserPosts) => {
   for (let i = 0; i < responseUserPosts.length; i++) {
     const currentPost = responseUserPosts[i];
 
-    let dynamicPostID = currentPost.parentUserPost ? (currentPost.parentUserPost.adminPostId || currentPost.parentUserPost._id) : "-9999";
-    let dynamicPostType = currentPost.type || "-9999";
-    if (currentPost.isReplyTo) {
-      dynamicPostType = "REPLYTO";
-      dynamicPostID = currentPost.isReplyTo;
-    }
-    if (currentPost.quoteTweetTo) {
-      dynamicPostType = "QUOTETWEET";
-      dynamicPostID = currentPost.quoteTweetTo;
-    }
+    const sharePostId = currentPost.parentUserPost ? (currentPost.parentUserPost.adminPostId || currentPost.parentUserPost._id) : "-9999";
     const postId = (currentPost.adminPostId || currentPost._id);
     const attachedMediaId = currentPost?.attachedMedia?.length > 0 ? (currentPost.attachedMedia[0]._id || "-9999") : "-9999";
-    normalize[dynamicPostType] = (normalize[dynamicPostType] || "") + postId + "!~*!" + escapeChars(currentPost.postMessage) + "!~*!" + attachedMediaId + "!~*!" + dynamicPostID + "|$|";
+    normalize[currentPost.type] = (normalize[currentPost.type] || "") + postId + "!~*!" + escapeChars(currentPost.postMessage) + "!~*!" + attachedMediaId + "!~*!" + sharePostId + "|$|";
   }
   return normalize;
 };
 
-const possiblePostTypes= ['LINK', 'VIDEO', 'PHOTO', 'TEXT', 'SHARE', 'RETWEET', 'QUOTETWEET', 'REPLYTO', 'UNDORETWEET'];
+const possiblePostTypes= ['LINK', 'VIDEO', 'PHOTO', 'TEXT', 'SHARE', 'RETWEET', 'QUOTETWEET', 'REPLYTO'];
 export const formulateUserPosts = (userPosts) => {
-  // manually form the array for all the possible post types and then add postId for that action
+  // manually form the array for all the possible actions and then add postId for that action
   const normalizeUserPostsData = normalizeUserPosts(userPosts);
   const eachRow = [];
   for (let i = 0; i < possiblePostTypes.length; i++) {

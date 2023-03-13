@@ -90,10 +90,11 @@ const create = async (req, res, next) => {
       languages: lanArr
     });
   } catch (error) {
+    console.log(error.message);
     // if we reach here, there were some errors thrown, therefore roolback the transaction
     if (transaction) await transaction.rollback();
     res.status(500).send({
-      message: `Error: ${error.message ? error.message : error}`
+      message: "Some error occurred while creating the Languages record(s)."
     });
   }
 };
@@ -125,8 +126,9 @@ const getLanguages = async (req, res, next) => {
     });
     res.send(data);
   } catch (error) {
+    console.log(error.message);
     res.status(500).send({
-      message: `Error: ${error.message ? error.message : error}`
+      message: "Some error occurred while fetching all languages for template Id!"
     });
   }
 };

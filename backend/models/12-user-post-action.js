@@ -8,7 +8,7 @@ export default (sequelize, DataTypes) => {
     },
     action: {
       allowNull: false,
-      type: DataTypes.ENUM('LIKE', 'LOVE', 'HAHA', 'WOW', 'SAD', 'ANGRY', 'COMMENT', 'TWEET', 'RETWEET', 'REPORT')
+      type: DataTypes.ENUM('LIKE', 'LOVE', 'HAHA', 'WOW', 'SAD', 'ANGRY', 'COMMENT', 'TWEET', 'RETWEET')
     },
     comment: {
       allowNull: true,

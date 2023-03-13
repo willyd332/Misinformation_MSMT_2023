@@ -53,24 +53,18 @@ const Facebook = ({ data }) => {
         <StoryCreate />
 
         <div className="facebookMainBody">
-          {totalPostCount && totalPostCount > 0 ? 
-            <Feed omitInteractionBar={data?.omitInteractionBar || false}/> 
-          : <p>No Posts Exists!</p>}
+          {totalPostCount && totalPostCount > 0 ? <Feed /> : <p>No Posts Exists!</p>}
         </div>
-
-        <div className="fbNextBotton">
-          <Button
-            type="submit"
-            variant="contained"
-            color="primary"
-            style={{ marginTop: '12px' }}
-            onClick={handleSubmit}
-            className={classes.submit}
-            endIcon={<IconChevronRight />}
-          >
-            {translations?.next || "NEXT"}
-          </Button>
-        </div>
+        <Button
+          type="submit"
+          variant="contained"
+          color="primary"
+          onClick={handleSubmit}
+          className={classes.submit}
+          endIcon={<IconChevronRight />}
+        >
+          {translations?.next || "NEXT"}
+        </Button>
       </Container>
     </>
   )
