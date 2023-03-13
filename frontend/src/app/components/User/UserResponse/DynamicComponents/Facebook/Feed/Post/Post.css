@@ -12,6 +12,12 @@
   margin-bottom: 0;
 }
 
+.postTopInfo > h3 > svg { 
+  font-size: .9rem;
+  margin-left: 5px;
+  color: #1B74E4;
+}
+
 .postTopInfo > p {
   font-size: x-small;
   color: gray;

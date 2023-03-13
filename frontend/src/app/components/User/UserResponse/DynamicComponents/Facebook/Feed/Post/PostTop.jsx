@@ -11,7 +11,10 @@ import DynamicMedia from '../../../../../../Common/UserCommon/SocialMediaPostTyp
 import DynamicMediaProfile from '../../../../../../Common/UserCommon/SocialMediaPostType/DynamicMediaProfile';
 import { reportPost, unreportPost } from '../../../../../../../actions/socialMedia';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
+import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 // import { SmsFailedOutlined } from '@material-ui/icons/'
+
+const datesPosted = ["6 de Setembro de 2018", "30 de Novembro de 2018", "18 de Abril de 2018", "9 de Maio de 2018", "11 de Março de 2018"]
 
 const PostTop = ({ id, index, postData, imgUrls, postDataUpdated}) => {
   const singlePost = useSelector(state => selectSinglePost(state, id));
@@ -73,7 +76,7 @@ const PostTop = ({ id, index, postData, imgUrls, postDataUpdated}) => {
                   <div className="postTopInfo">
                   <h3>{singlePost.userPost ? (userRegisterData['USERNAME'] || "") : 
                     singleAuthor?.authorName || ""
-                  }</h3>
+                  }{postData[imgUrls[index]]["authorVerified"] && <CheckCircleIcon color="primary" fontSize="small"/>}</h3>
                   <p>{postData[imgUrls[index]]["datePosted"] || ""}</p>
                 </div>
                 <div className="postTopThreeDots">
@@ -85,8 +88,8 @@ const PostTop = ({ id, index, postData, imgUrls, postDataUpdated}) => {
                 <div className="postTopInfo">
                   <h3>{singlePost.userPost ? (userRegisterData['USERNAME'] || "") : 
                     singleAuthor?.authorName || ""
-                  }</h3>
-                  <p>{singlePost.datePosted || ""}</p>
+                  }{singleAuthor?.authorVerified && <CheckCircleIcon color="primary" fontSize="small"/>}</h3>
+                  <p>{datesPosted[index] || ""}</p>
                 </div>
                 <div className="postTopThreeDots">
                   <MoreHorizIcon />
