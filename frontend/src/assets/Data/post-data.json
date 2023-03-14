@@ -55,7 +55,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "3,4 mil",
+  "initLike": 3400,
   "datePosted": "11 de maio de 2020",
   "filename": "agnostic-jordy-1-cropped.png"
  },
@@ -95,7 +95,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "1,8 mil",
+  "initLike": 1800,
   "datePosted": "26 de novembro de 2020",
   "filename": "agnostic-jordy-5-cropped.png"
  },
@@ -105,7 +105,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "6,2 mil",
+  "initLike": 6200,
   "datePosted": "9 de maio de 2020",
   "filename": "agnostic-kicis-1-cropped.png"
  },
@@ -115,7 +115,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "1,3 mil",
+  "initLike": 1300,
   "datePosted": "17 de outubro de 2018",
   "filename": "agnostic-kicis-2-cropped.png"
  },
@@ -135,7 +135,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "1 mil",
+  "initLike": 1000,
   "datePosted": "5 de junho de 2019",
   "filename": "agnostic-kicis-4-cropped.png"
  },
@@ -205,7 +205,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "2,9 mil",
+  "initLike": 2900,
   "datePosted": "6 de setembro de 2019",
   "filename": "agnostic-martins-1-cropped.png"
  },
@@ -214,7 +214,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "7,4 mil",
+  "initLike": 7400,
   "datePosted": "24 de novembro de 2020",
   "filename": "agnostic-martins-2-cropped.png"
  },
@@ -223,7 +223,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "10 mil",
+  "initLike": 1000,
   "datePosted": "10 de outubro de 2020",
   "filename": "agnostic-martins-3-cropped.png"
  },
@@ -233,7 +233,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "1,9 mil",
+  "initLike": 1900,
   "datePosted": "8 de junho de 2019",
   "filename": "agnostic-martins-4-cropped.png"
  },
@@ -242,7 +242,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "8,7 mil",
+  "initLike": 8700,
   "datePosted": "2 de novembro de 2020",
   "filename": "agnostic-martins-5-cropped.png"
  },
@@ -272,7 +272,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1001,
-  "initLike": "7,3 mil",
+  "initLike": 7300,
   "datePosted": "11 de novembro de 2020",
   "filename": "agnostic-augusto-8-cropped.png"
  },
@@ -282,7 +282,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1001,
-  "initLike": "1,2 mil",
+  "initLike": 1200,
   "datePosted": "22 de setembro de 2020",
   "filename": "agnostic-augusto-9-cropped.png"
  },
@@ -302,7 +302,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1001,
-  "initLike": "1,5 mil",
+  "initLike": 1500,
   "datePosted": "19 de setembro de 2020",
   "filename": "agnostic-augusto-11-cropped.png"
  },
@@ -312,7 +312,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1001,
-  "initLike": "9,1 mil",
+  "initLike": 9100,
   "datePosted": "9 de dezembro de 2020",
   "filename": "agnostic-augusto-12-cropped.png"
  },
@@ -332,7 +332,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1001,
-  "initLike": "10 mil",
+  "initLike": 1000,
   "datePosted": "3 de agosto de 2020",
   "filename": "agnostic-augusto-14-cropped.png"
  },
@@ -341,7 +341,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1001,
-  "initLike": "1,2 mil",
+  "initLike": 1200,
   "datePosted": "16 de setembro de 2020",
   "filename": "agnostic-augusto-15-cropped.png"
  },
@@ -351,7 +351,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1001,
-  "initLike": "2,4 mil",
+  "initLike": 2400,
   "datePosted": "2 de dezembro de 2020",
   "filename": "agnostic-augusto-16-cropped.png"
  },
@@ -430,7 +430,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1001,
-  "initLike": "1,1 mil",
+  "initLike": 1100,
   "datePosted": "8 de agosto de 2020",
   "filename": "agnostic-augusto-24-cropped.png"
  },
@@ -459,7 +459,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1001,
-  "initLike": "10 mil",
+  "initLike": 1000,
   "datePosted": "15 de dezembro de 2020",
   "filename": "agnostic-augusto-27-cropped.png"
  },
@@ -489,7 +489,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1001,
-  "initLike": "7,4 mil",
+  "initLike": 7400,
   "datePosted": "8 de novembro de 2020",
   "filename": "agnostic-augusto-30-cropped.png"
  },
@@ -499,7 +499,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "1,2 mil",
+  "initLike": 1200,
   "datePosted": "24 de novembro de 2019",
   "filename": "agnostic-jordy-6-cropped.png"
  },
@@ -509,7 +509,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "3,5 mil",
+  "initLike": 3500,
   "datePosted": "1 de setembro de 2020",
   "filename": "agnostic-jordy-7-cropped.png"
  },
@@ -539,7 +539,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "1,5 mil",
+  "initLike": 1500,
   "datePosted": "16 de julho de 2019",
   "filename": "agnostic-jordy-10-cropped.png"
  },
@@ -559,7 +559,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "2,3 mil",
+  "initLike": 2300,
   "datePosted": "8 de junho de 2020",
   "filename": "agnostic-jordy-12-cropped.png"
  },
@@ -579,7 +579,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "1,5 mil",
+  "initLike": 1500,
   "datePosted": "7 de fevereiro de 2020",
   "filename": "agnostic-jordy-14-cropped.png"
  },
@@ -589,7 +589,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "1,1 mil",
+  "initLike": 1100,
   "datePosted": "6 de março de 2020",
   "filename": "agnostic-jordy-15-cropped.png"
  },
@@ -599,7 +599,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "11 mil",
+  "initLike": 1100,
   "datePosted": "11 de setembro de 2020",
   "filename": "agnostic-jordy-16-cropped.png"
  },
@@ -639,7 +639,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "1,9 mil",
+  "initLike": 1900,
   "datePosted": "9 de outubro de 2019",
   "filename": "agnostic-jordy-20-cropped.png"
  },
@@ -659,7 +659,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "1 mil",
+  "initLike": 100,
   "datePosted": "2 de outubro de 2018",
   "filename": "agnostic-jordy-22-cropped.png"
  },
@@ -679,7 +679,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "5,4 mil",
+  "initLike": 5400,
   "datePosted": "25 de julho de 2020",
   "filename": "agnostic-jordy-24-cropped.png"
  },
@@ -699,7 +699,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "2,7 mil",
+  "initLike": 2700,
   "datePosted": "19 de setembro de 2020",
   "filename": "agnostic-jordy-26-cropped.png"
  },
@@ -759,7 +759,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "20 mil",
+  "initLike": 2000,
   "datePosted": "15 de outubro de 2020",
   "filename": "agnostic-kicis-7-cropped.png"
  },
@@ -769,7 +769,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "18 mil",
+  "initLike": 1800,
   "datePosted": "3 de dezembro de 2020",
   "filename": "agnostic-kicis-8-cropped.png"
  },
@@ -799,7 +799,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "4 mil",
+  "initLike": 400,
   "datePosted": "11 de maio de 2018",
   "filename": "agnostic-kicis-11-cropped.png"
  },
@@ -809,7 +809,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "2,3 mil",
+  "initLike": 2300,
   "datePosted": "26 de março de 2019",
   "filename": "agnostic-kicis-12-cropped.png"
  },
@@ -829,7 +829,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "2,6 mil",
+  "initLike": 2600,
   "datePosted": "11 de fevereiro de 2018",
   "filename": "agnostic-kicis-14-cropped.png"
  },
@@ -839,7 +839,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "1,5 mil",
+  "initLike": 1500,
   "datePosted": "8 de maio de 2019",
   "filename": "agnostic-kicis-15-cropped.png"
  },
@@ -849,7 +849,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "2,5 mil",
+  "initLike": 2500,
   "datePosted": "16 de julho de 2019",
   "filename": "agnostic-kicis-16-cropped.png"
  },
@@ -869,7 +869,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "1,3 mil",
+  "initLike": 1300,
   "datePosted": "16 de janeiro de 2020",
   "filename": "agnostic-kicis-18-cropped.png"
  },
@@ -879,7 +879,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "1,1, mil",
+  "initLike": 1100,
   "datePosted": "11 de junho de 2019",
   "filename": "agnostic-kicis-19-cropped.png"
  },
@@ -959,7 +959,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "4,5 mil",
+  "initLike": 4500,
   "datePosted": "8 de outubro de 2019",
   "filename": "agnostic-kicis-27-cropped.png"
  },
@@ -979,7 +979,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "25 mil",
+  "initLike": 2500,
   "datePosted": "24 de julho de 2020",
   "filename": "agnostic-kicis-29-cropped.png"
  },
@@ -1248,7 +1248,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "9,3 mil",
+  "initLike": 9300,
   "datePosted": "17 de agosto de 2020",
   "filename": "agnostic-martins-6-cropped.png"
  },
@@ -1257,7 +1257,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "2,6 mil",
+  "initLike": 2600,
   "datePosted": "20 de agosto de 2020",
   "filename": "agnostic-martins-7-cropped.png"
  },
@@ -1266,7 +1266,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "6,2 mil",
+  "initLike": 6200,
   "datePosted": "2 de maio de 2020",
   "filename": "agnostic-martins-8-cropped.png"
  },
@@ -1286,7 +1286,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "6,8 mil",
+  "initLike": 6800,
   "datePosted": "4 de maio de 2020",
   "filename": "agnostic-martins-10-cropped.png"
  },
@@ -1295,7 +1295,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "10 mil",
+  "initLike": 1000,
   "datePosted": "19 de agosto de 2020",
   "filename": "agnostic-martins-11-cropped.png"
  },
@@ -1305,7 +1305,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "1,8 mil",
+  "initLike": 1800,
   "datePosted": "22 de abril de 2019",
   "filename": "agnostic-martins-12-cropped.png"
  },
@@ -1315,7 +1315,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "5,9 mil",
+  "initLike": 5900,
   "datePosted": "6 de outubro de 2019",
   "filename": "agnostic-martins-13-cropped.png"
  },
@@ -1324,7 +1324,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "9,2 mil",
+  "initLike": 9200,
   "datePosted": "18 de junho de 2020",
   "filename": "agnostic-martins-14-cropped.png"
  },
@@ -1334,7 +1334,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "1,9 mil",
+  "initLike": 1900,
   "datePosted": "1 de outubro de 2019",
   "filename": "agnostic-martins-15-cropped.png"
  },
@@ -1344,7 +1344,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "1,5 mil",
+  "initLike": 1500,
   "datePosted": "27 de abril de 2019",
   "filename": "agnostic-martins-16-cropped.png"
  },
@@ -1354,7 +1354,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "9,9 mil",
+  "initLike": 9900,
   "datePosted": "29 de julho de 2020",
   "filename": "agnostic-martins-17-cropped.png"
  },
@@ -1363,7 +1363,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "3,1 mil",
+  "initLike": 3100,
   "datePosted": "6 de fevereiro de 2020",
   "filename": "agnostic-martins-18-cropped.png"
  },
@@ -1372,7 +1372,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "9,5 mil",
+  "initLike": 9500,
   "datePosted": "23 de junho de 2020",
   "filename": "agnostic-martins-19-cropped.png"
  },
@@ -1381,7 +1381,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "7,8 mil",
+  "initLike": 7800,
   "datePosted": "4 de setembro de 2020",
   "filename": "agnostic-martins-20-cropped.png"
  },
@@ -1390,7 +1390,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "7,8 mil",
+  "initLike": 7800,
   "datePosted": "12 de abril de 2020",
   "filename": "agnostic-martins-21-cropped.png"
  },
@@ -1399,7 +1399,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "2,8 mil",
+  "initLike": 2800,
   "datePosted": "23 de abril de 2020",
   "filename": "agnostic-martins-22-cropped.png"
  },
@@ -1409,7 +1409,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "10 mil",
+  "initLike": 1000,
   "datePosted": "22 de janeiro de 2020",
   "filename": "agnostic-martins-23-cropped.png"
  },
@@ -1419,7 +1419,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "5,6 mil",
+  "initLike": 5600,
   "datePosted": "17 de julho de 2019",
   "filename": "agnostic-martins-24-cropped.png"
  },
@@ -1428,7 +1428,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "10 mil",
+  "initLike": 1000,
   "datePosted": "20 de outubro de 2020",
   "filename": "agnostic-martins-25-cropped.png"
  },
@@ -1438,7 +1438,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "5,2 mil",
+  "initLike": 5200,
   "datePosted": "8 de novembro de 2019",
   "filename": "agnostic-martins-26-cropped.png"
  },
@@ -1447,7 +1447,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "4,4 mil",
+  "initLike": 4400,
   "datePosted": "9 de julho de 2020",
   "filename": "agnostic-martins-27-cropped.png"
  },
@@ -1457,7 +1457,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "2,2 mil",
+  "initLike": 2200,
   "datePosted": "25 de abril de 2019",
   "filename": "agnostic-martins-28-cropped.png"
  },
@@ -1466,7 +1466,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "1,6 mil",
+  "initLike": 1600,
   "datePosted": "20 de setembro de 2019",
   "filename": "agnostic-martins-29-cropped.png"
  },
@@ -1476,7 +1476,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "3 mil",
+  "initLike": 300,
   "datePosted": "1 de junho de 2019",
   "filename": "agnostic-martins-30-cropped.png"
  },
@@ -1516,7 +1516,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "3,3 mil",
+  "initLike": 3300,
   "datePosted": "3 de dezembro de 2020",
   "filename": "policy-jordy-2-cropped.png"
  },
@@ -1526,7 +1526,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1002,
-  "initLike": "2,6 mil",
+  "initLike": 2600,
   "datePosted": "8 de outubro de 2020",
   "filename": "policy-jordy-3-cropped.png"
  },
@@ -1546,7 +1546,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "8,6 mil",
+  "initLike": 8600,
   "datePosted": "10 de setembro de 2020",
   "filename": "policy-kicis-2-cropped.png"
  },
@@ -1556,7 +1556,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1003,
-  "initLike": "2,6 mil",
+  "initLike": 2600,
   "datePosted": "22 de abril de 2020",
   "filename": "policy-kicis-3-cropped.png"
  },
@@ -1586,7 +1586,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "1,6 mil",
+  "initLike": 1600,
   "datePosted": "9 de outubro de 2019",
   "filename": "policy-martins-1-cropped.png"
  },
@@ -1596,7 +1596,7 @@
   "postType": "PHOTO",
   "isMisinfo": 0,
   "authorID": 1005,
-  "initLike": "2 mil",
+  "initLike": 200,
   "datePosted": "10 de maio de 2019",
   "filename": "policy-martins-2-cropped.png"
  }

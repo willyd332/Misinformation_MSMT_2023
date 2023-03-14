@@ -29,11 +29,11 @@
         let melo_url = base_url + "agnostic-melo" + "-" + melo_img_number + ".png";
         let martins_url = base_url + "agnostic-martins" + "-" + martins_img_number + ".png";
         // Save embedded data (make sure to update in Qualtrics too)
-        Qualtrics.SurveyEngine.setEmbeddedData("agnostic_augusto_img_number", augusto_img_number)
-        Qualtrics.SurveyEngine.setEmbeddedData("agnostic_jordy_img_number", jordy_img_number)
-        Qualtrics.SurveyEngine.setEmbeddedData("agnostic_kicis_img_number", kicis_img_number)
-        Qualtrics.SurveyEngine.setEmbeddedData("agnostic_melo_img_number", melo_img_number)
-        Qualtrics.SurveyEngine.setEmbeddedData("agnostic_martins_img_number", martins_img_number)
+        Qualtrics.SurveyEngine.setEmbeddedData("agnostic_augusto_img_number", augusto_img_number) // MSMT 101
+        Qualtrics.SurveyEngine.setEmbeddedData("agnostic_jordy_img_number", jordy_img_number) // MSMT 102
+        Qualtrics.SurveyEngine.setEmbeddedData("agnostic_kicis_img_number", kicis_img_number) // MSMT 103
+        Qualtrics.SurveyEngine.setEmbeddedData("agnostic_melo_img_number", melo_img_number) // MSMT 104
+        Qualtrics.SurveyEngine.setEmbeddedData("agnostic_martins_img_number", martins_img_number) // MSMT 105
 
         Qualtrics.SurveyEngine.setEmbeddedData("agnostic_augusto_url", augusto_url)
         Qualtrics.SurveyEngine.setEmbeddedData("agnostic_jordy_url", jordy_url)

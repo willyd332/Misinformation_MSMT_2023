@@ -34,3 +34,11 @@ ALSO!
 - EXCEL FILE NEEDS TO BE CONVERTED TO JSON AND ADDED TO ...../assets/Data/post-data.json
 
 - AND THE FAKE NEWS ARM NEEDS TO BE THE ONE UPLOADED AS THE DEFAULT
+
+- FINALLY, HERE IS THE QUALTRICS URL
+
+  // ?url1=&url2=&url3=&url4=&url5=&userid=
+
+  // http://localhost:8080/111111?url1=agnostic-augusto-1-cropped&url2=agnostic-augusto-2-cropped&url3=agnostic-augusto-3-cropped&url4=agnostic-augusto-4-cropped&url5=agnostic-augusto-5-cropped&userid=696969
+
+
