@@ -60,7 +60,7 @@ const DynamicMedia = ({ attachedMedia, customCSS, index, isURL }) => {
     let paramString = "?" + urlString.split('?')[1]
     let queryString = new URLSearchParams(paramString);
     for (let pair of queryString.entries()) {
-      img_urls.push("https://misinformation-images.s3.amazonaws.com/" + pair[1] + ".png")
+      img_urls.push("https://d2ir49bmk9o0n1.cloudfront.net/" + pair[1] + ".png")
     }
     updateUrls(img_urls)
   }, []);

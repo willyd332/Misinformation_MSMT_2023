@@ -13,7 +13,7 @@
     // 1-3 (for policy)
 
 
-    const this_base_url = "https://misinformation-images.s3.amazonaws.com/"
+    const this_base_url = "https://d2ir49bmk9o0n1.cloudfront.net/"
 
     const generate_agnostic_urls = (base_url) => {
         // Randomize the results
@@ -85,7 +85,7 @@
 
 
 
-    // const this_base_url = "https://misinformation-images.s3.amazonaws.com/"
+    // const this_base_url = "https://d2ir49bmk9o0n1.cloudfront.net/"
 
     // const generate_agnostic_urls = (base_url) => {
     //     // Randomize the results
