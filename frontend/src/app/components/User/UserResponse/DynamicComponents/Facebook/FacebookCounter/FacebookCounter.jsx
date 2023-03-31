@@ -11,7 +11,7 @@ const FacebookCounter = ({counters, onClick}) => {
   }
 
   return (
-    <div className='counterContainer' onClick={onClick}>
+    <div className='counterContainer' onClick={onClick} style={{marginLeft: '15px'}}>
       <ThumbUp color={counters === 0 ? 'disabled' : 'primary'} fontSize="small"/>
       <span className='counterLikes'>{formatNumber(counters)}</span>
     </div>
