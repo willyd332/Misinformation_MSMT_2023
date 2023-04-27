@@ -72,9 +72,7 @@ const PostBottom = ({ id, omitInteractionBar, index, postData, imgUrls, postData
       userPostId: id,
     };
     await dispatch(likeFbPost(data, id));
-  }
-
-  console.log(postMetadata.initLike)
+  } 
   return (
     <>
     {!omitInteractionBar &&
@@ -82,14 +80,19 @@ const PostBottom = ({ id, omitInteractionBar, index, postData, imgUrls, postData
         <div className="postActionsContainer">
           <div className="postAction reactionContainer childrenReactions">
           {display && <FacebookSelector onSelect={handleReactions} iconSize={30} />}
-          {!display && (imgUrls[index] in postData) &&
+          {!display && index >= 0 && (imgUrls[index] in postData) &&
             <div style={{paddingTop: '15px'}}>
               <FacebookCounter onClick={() => setDisplay(true)} counters={postData[imgUrls[index]]["initLike"]}/>
             </div>
           }
-          {!display && !(imgUrls[index] in postData) &&
+          {!display && index >= 0 && !(imgUrls[index] in postData) &&
             <div style={{paddingTop: '15px'}}>
               <FacebookCounter onClick={() => setDisplay(true)} counters={initLikes[index]}/>
+            </div>
+          }
+          {!display && index < 0 &&
+            <div style={{paddingTop: '15px'}}>
+              <FacebookCounter onClick={() => setDisplay(true)} counters={0}/>
             </div>
           }
           </div>

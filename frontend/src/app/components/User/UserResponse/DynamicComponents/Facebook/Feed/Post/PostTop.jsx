@@ -71,7 +71,7 @@ const PostTop = ({ id, index, postData, imgUrls, postDataUpdated}) => {
                   className="fbPostTopAvatar"
                 />
               }
-              {postDataUpdated && imgUrls[index] in postData ?
+              {index >= 0 && postDataUpdated && imgUrls[index] in postData ?
               <>
                   <div className="postTopInfo">
                   <h3>{singlePost.userPost ? (userRegisterData['USERNAME'] || "") : 
@@ -102,7 +102,7 @@ const PostTop = ({ id, index, postData, imgUrls, postDataUpdated}) => {
               </div> */}
             </div>
             
-            {postDataUpdated && imgUrls[index] in postData ?
+            {index >= 0 && postDataUpdated && imgUrls[index] in postData ?
               <Text postMessage={postData[imgUrls[index]]["text"]} link={singlePost.link} />
             :
               <Text postMessage={singlePost.postMessage} link={singlePost.link} />

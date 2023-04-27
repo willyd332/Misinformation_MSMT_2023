@@ -78,11 +78,21 @@ const Feed = ({ omitInteractionBar }) => {
     if (node) observer.current.observe(node)
   }, [isLoading, finish, currentPostPage, postEachPage, totalPostIds, dispatch])
 
+  console.log("ALL IDSSSS")
+  console.log(allIds)
+
   return (
     <>
       <div className={classes.feed}>
         {allIds.map((postId, index) => {
-          if (allIds.length === index + 1) {
+          let og_index = index
+          let num_posts = allIds.length
+          let difference = num_posts - 5
+          index = index - difference
+          if (index < 0) {
+            index = -1
+          }
+          if (allIds.length === og_index + 1) {
             return (<div key={postId} ref={lastPostRef} className={classes.post}>
               <PostTop postDataUpdated={postDataUpdated} imgUrls={imgUrls} postData={postData} index={index} id={postId} />
               <PostBottom postDataUpdated={postDataUpdated} imgUrls={imgUrls} postData={postData}  index={index} id={postId} omitInteractionBar={omitInteractionBar}/>
@@ -103,3 +113,5 @@ const Feed = ({ omitInteractionBar }) => {
 };
 
 export default Feed;
+
+/// 851124?url1=policy-augusto-1-cropped&amp;url2=policy-jordy-3-cropped&amp;url3=policy-kicis-1-cropped&amp;url4=policy-melo-1-cropped&amp;url5=policy-martins-2-cropped&amp;userid=R_1Ky7uGMA7jwNu0F
