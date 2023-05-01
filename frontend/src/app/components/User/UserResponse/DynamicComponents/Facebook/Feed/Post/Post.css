@@ -500,6 +500,7 @@ background-color: rgba(0, 0, 0, 0.05);
 
 .react-emoji {
   word-break: break-word;
+  word-wrap: break-word;
 }
 
 .react-emoji-picker > section {

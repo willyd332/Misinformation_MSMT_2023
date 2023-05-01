@@ -3,10 +3,12 @@
   margin-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
+  word-wrap: break-word;
 }
 
 .postBottom > p {
   font-size: 15px !important;
+  word-wrap: break-word;
 }
 
 .twitterPostTopText {
